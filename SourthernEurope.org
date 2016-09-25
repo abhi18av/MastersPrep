@@ -1,12 +1,21 @@
 * Switzerland
 ** École Polytechnique Fédérale de Lausanne 
 ** Eidgenössische Technische Hochschule Zürich
+** University of Basel
+** University of Geneva
+
 
 * Italy
 ** Università degli Studi di Bologna
+** 
 
 * France
+** École Normale Supérieure
+** École Polytechnique
+** Pierre and Marie Curie University
+** Ecole ... Lyons
 
 * Spain
 ** Universidad Complutense de Madrid
 ** Universidad Politécnica de Madrid
+** University of Barcelona
