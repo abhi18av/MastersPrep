@@ -1,7 +1,9 @@
 * Universität Hamburg
 * Humboldt-Universität zu Berlin
-* Universität München
+* Universität München  -- LMU Munich
 * Freie Universität Berlin
 * Universität Freiburg
 * Technische Universität Berlin
-* 
+* University of Tübingen
+* University of Göttingen
+* Heidelberg University
