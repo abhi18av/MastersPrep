@@ -3,6 +3,7 @@
 ** Eidgenössische Technische Hochschule Zürich
 ** University of Basel
 ** University of Geneva
+** Bern
 
 
 * Italy
