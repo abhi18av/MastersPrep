@@ -1,76 +1,63 @@
-
-* NETHERLANDS
-** Universiteit Twente
-** University of Amsterdam
+* NETHERLANDS 
 ** Leiden University
-** University of Groningen
 ** University of Utrecht
+** University of Amsterdam
+** Universiteit Twente
+** University of Groningen
 ** Maastricht University
 ** Delft University of Technology
 ** Eindhoven University of Technology
-
-* GERMANY
+* GERMANY 
 ** Universität Hamburg
+** University of Göttingen
 ** Humboldt-Universität zu Berlin
 ** Universität München  -- LMU Munich
 ** Freie Universität Berlin
 ** Universität Freiburg
 ** Technische Universität Berlin
 ** University of Tübingen
-** University of Göttingen
 ** Heidelberg University
 ** Konstanz
 ** Stuttgart
-
-
-* SWEDEN
-** Kungliga Tekniska högskolan
-** Karolinska Institute
+* SWEDEN 
 ** Uppsala University
 ** Stockholm University
+** Kungliga Tekniska högskolan
+** Karolinska Institute
 ** University of Gothenburg
 ** Lund University
-
 * SWITZERLAND
 ** École Polytechnique Fédérale de Lausanne
 ** Eidgenössische Technische Hochschule Zürich
 ** University of Basel
 ** University of Geneva
 ** Bern
-
 * FRANCE
 ** École Normale Supérieure
 ** École Polytechnique
 ** Pierre and Marie Curie University
 ** Ecole ... Lyons
-
 * FINLAND
 ** University of Helsinki
 ** Aalto University
-
 * NORWAY
 ** NTU
 ** Universitet i Oslo
-
 * US
 ** MIT
 ** Harvard
 ** Stanford
 ** UC Berkeley
 ** CalTech
-
-* RUSSIA
+* BELGIUM
+** Katholieke Universiteit Leuven
+* RUSSIA :
 ** Moscow State University
 ** St. Petersburg University
-
 * DENMARK
 ** Aarhus University
 ** University of Copenhagen
 ** Technical University of Denmark
-
-* BELGIUM
-** Katholieke Universiteit Leuven
-
 * UK
 ** University of Cambridge
 ** Imperial College London
@@ -81,8 +68,38 @@
 ** King’s College London
 * ITALY
 ** Università degli Studi di Bologna
-
 * SPAIN
 ** Universidad Complutense de Madrid
 ** Universidad Politécnica de Madrid
 ** University of Barcelona
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:smi
