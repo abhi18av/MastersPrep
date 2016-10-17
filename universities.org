@@ -97,6 +97,23 @@
 **** http://www.fu-berlin.de/en/studium/studienangebot/master/sprachen_europas/index.html
 *** Potsdam
 **** http://www.ling.uni-potsdam.de/en/
+* UK/scotland
+** http://www.swansea.ac.uk/postgraduate/research/science/computer-science/mres-logic-and-computation/
+** http://rgcl.wlv.ac.uk/masters-and-phd-studies/
+** http://courses.wlv.ac.uk/course.asp?code=WL009P34UVD
+** The University of Edinburgh
+*** http://groups.inf.ed.ac.uk/langlunch/
+*** http://www.ed.ac.uk/studying/postgraduate/degrees?r=site/view&id=107&cw_xml=.
+*** http://www.ed.ac.uk/studying/postgraduate/degrees?r=site/view&id=290&cw_xml=.
+*** http://www.ed.ac.uk/studying/postgraduate/degrees?r=site/view&id=108&cw_xml=.
+** University of Cambridge
+** Manchester
+*** http://www.manchester.ac.uk/study/masters/courses/list/01233/ma-linguistics/
+** Imperial College London
+** University College London
+** University of Glasgow
+** University of Oxford
+** King’s College London
 * SWEDEN 
 ** HOT
 *** Uppsala University
@@ -125,27 +142,19 @@
 **** nada
 *** http://www.sprak.umu.se/english/education/second-cycle--ma--studies/masters-programme-in-language-and-literature/
 * SWITZERLAND
-** École Polytechnique Fédérale de Lausanne
-** Eidgenössische Technische Hochschule Zürich
-** University of Basel
-** University of Geneva
-** Bern
-*** http://www.philnat.unibe.ch/content/studies/study_programs/master_s_in_computer_science/index_eng.html
-*** http://www.philhist.unibe.ch/studium/studienprogramme/master_linguistik/index_ger.html
-** zurich
-*** http://www.degrees.uzh.ch/studiengang.php?CG_SAP_id=50384846&SC_SAP_id=50383586&org_SAP_id=50000007&lang=en
-*** http://www.degrees.uzh.ch/studiengang.php?CG_SAP_id=50384848&SC_SAP_id=50383586&org_SAP_id=50000007&lang=en
-* FRANCE
-** École Normale Supérieure
-*** nada
-** École Polytechnique
-*** rien
-** Pierre and Marie Curie University
-*** rien
-** Ecole ... Lyons
-*** rien
-** http://www.univ-paris-diderot.fr/english/sc/site.php?bc=formations&np=ficheufr&n=5&g=sm
-** http://www.lscp.net/persons/dupoux/bootphon/page_3.html
+** COLD
+*** École Polytechnique Fédérale de Lausanne
+*** Eidgenössische Technische Hochschule Zürich
+*** University of Basel
+** HOT
+*** University of Geneva
+**** http://clcl.unige.ch/
+*** Bern
+**** http://www.philnat.unibe.ch/content/studies/study_programs/master_s_in_computer_science/index_eng.html
+**** http://www.philhist.unibe.ch/studium/studienprogramme/master_linguistik/index_ger.html
+*** zurich
+**** http://www.degrees.uzh.ch/studiengang.php?CG_SAP_id=50384846&SC_SAP_id=50383586&org_SAP_id=50000007&lang=en
+**** http://www.degrees.uzh.ch/studiengang.php?CG_SAP_id=50384848&SC_SAP_id=50383586&org_SAP_id=50000007&lang=en
 * NORWAY
 ** http://www.uib.no/en/studyprogramme/MAHF-DASP#presentation
 ** http://www.uio.no/english/studies/programmes/inf-design-master/index.html
@@ -164,36 +173,41 @@
 ** CalTech
 * BELGIUM
 ** Katholieke Universiteit Leuven
+*** http://www.arts.kuleuven.be/ling/ccl
+*** https://onderwijsaanbod.kuleuven.be/syllabi/n/F0AR3AN.htm#activetab=doelstellingen_idp1656272
+*** http://www.arts.kuleuven.be/ling/ccl/lea
+*** https://onderwijsaanbod.kuleuven.be/syllabi/e/H02B1AE.htm#activetab=doelstellingen_idp31743392
+*** http://www.arts.kuleuven.be/ling/ccl/courses/ltai
 * RUSSIA :
 ** Moscow State University
 ** St. Petersburg University
 * DENMARK
 ** Aarhus University
+*** http://kandidat.au.dk/en/linguistics/
+*** http://cc.au.dk/en/about-the-school/departments/linguistics-cognitive-science-and-semiotics/
+*** http://talent.au.dk/phd/arts/programmes/language-linguistics-and-cognition/
+*** http://kandidat.au.dk/en/cognitivesemiotics/
 ** University of Copenhagen
 *** http://cst.ku.dk/english/
+*** http://studies.ku.dk/masters/it-and-cognition/
 ** Technical University of Denmark
-* UK/scotland
-** http://www.swansea.ac.uk/postgraduate/research/science/computer-science/mres-logic-and-computation/
-** http://rgcl.wlv.ac.uk/masters-and-phd-studies/
-** http://courses.wlv.ac.uk/course.asp?code=WL009P34UVD
-** The University of Edinburgh
-*** http://groups.inf.ed.ac.uk/langlunch/
-*** http://www.ed.ac.uk/studying/postgraduate/degrees?r=site/view&id=107&cw_xml=.
-*** http://www.ed.ac.uk/studying/postgraduate/degrees?r=site/view&id=290&cw_xml=.
-*** http://www.ed.ac.uk/studying/postgraduate/degrees?r=site/view&id=108&cw_xml=.
-** University of Cambridge
-** Manchester
-*** http://www.manchester.ac.uk/study/masters/courses/list/01233/ma-linguistics/
-** Imperial College London
-** University College London
-** University of Glasgow
-** University of Oxford
-** King’s College London
 * FINLAND
 ** University of Helsinki
 *** https://www.cs.helsinki.fi/research/doremi/
 ** Aalto University
 *** nope - nada
+* FRANCE
+**  http://mastermundusnlp-hlt.univ-fcomte.fr/
+** École Normale Supérieure
+*** nada
+** École Polytechnique
+*** rien
+** Pierre and Marie Curie University
+*** rien
+** Ecole ... Lyons
+*** rien
+** http://www.univ-paris-diderot.fr/english/sc/site.php?bc=formations&np=ficheufr&n=5&g=sm
+** http://www.lscp.net/persons/dupoux/bootphon/page_3.html
 * ITALY
 ** Università degli Studi di Bologna
 ** https://segreteriaonline.unisi.it/Guide/PaginaCorso.do;jsessionid=106442D7E10A5C76BD84603ECDB5D405.jvm_unisi_esse3web02?cod_lingua=eng&corso_id=10693
@@ -210,8 +224,8 @@
 ** http://en.ru.is/scs/graduate/programmes/language-technology-msc/
 * Basquw
 ** http://www.ehu.eus/en/web/hizkuntzarenazterketaprozesamendua/aurkezpena
-* http://mastermundusnlp-hlt.univ-fcomte.fr/
 * ISRAEL
 ** 
 * CHINA
 * JAPAN
+** http://isw3.naist.jp/Contents/Research/mi-01-en.html
