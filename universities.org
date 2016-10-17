@@ -1,48 +1,161 @@
+* USEFUL
+** http://www.folli.info/?page_id=45
+** http://coling2016.anlp.jp/#
+** http://aurelieherbelot.net/research/my-publications/
+** http://www.meicogsci.eu/
+* IELTS
+**  https://www.ielts.org/about-the-test/sample-test-questions#pagecontent_0_tab4
+* ERASMUS
+** https://lct-master.org/contents_2014/overview.php
+** https://lct-master.org/contents_2014/application.php
 * NETHERLANDS 
-** Leiden University
-** University of Utrecht
-** University of Amsterdam
-** Universiteit Twente
-** University of Groningen
-** Maastricht University
-** Delft University of Technology
-** Eindhoven University of Technology
+** HOT
+*** Leiden University
+**** Master's in Leiden http://en.mastersinleiden.nl/
+***** 
+**** https://www.apply.leiden.edu/bachelor-master/
+**** http://en.mastersinleiden.nl/programmes/theoretical-and-experimental-linguistics/en/introduction
+**** http://en.mastersinleiden.nl/
+**** https://www.apply.leiden.edu/bachelor-master/Index.php
+***** apply for excemtion of application fee
+**** http://www.students.leiden.edu/application-admission/master/application-admission/application-deadlines.html
+***** application deadline exceeded!
+*** University of Utrecht
+**** http://www.uu.nl/masters/en/masterprogrammas/vorm/voltijd-43/interessegebied/taalkunde-199
+**** http://www.uu.nl/masters/en/linguistics
+**** http://www.uu.nl/masters/en/artificial-intelligence
+**** https://app.studielink.nl/front-office/#42
+***** complete this!
+**** http://www.uu.nl/masters/en/linguistics/admission-and-application/non-eu/ndu#quicklinks
+***** admission guidelines
+*** University of Amsterdam
+**** https://www.illc.uva.nl/MScLogic/programme/logic-year.html
+***** look into it! awesome!
+***** https://www.illc.uva.nl/MScLogic/application/index.html
+**** http://gsh.uva.nl/prospective-masters-students/programmes/content17/general-linguistics.html
+**** http://masters.vu.nl/en/programmes/linguistics-research/index.aspx
+**** http://www.uva.nl/en/education/master-s/master-s-programmes/nav
+**** https://www.illc.uva.nl/
+***** great!
+***** https://www.illc.uva.nl/Research/Programmes/lola/
+***** 
+*** University of Groningen
+**** http://www.rug.nl/masters/language-and-cognition-research/
+**** http://www.rug.nl/masters/linguistics-research/?lang=en
+**** http://www.rug.nl/masters/european-linguistics/?lang=en
+**** http://www.rug.nl/masters/language-and-communication-technologies-double-degree-programme/
+**** http://www.rug.nl/masters/neurolinguistics/
+**** http://www.rug.nl/let/education/master/rema/application
+**** register using studielink
+** COLD
+*** Universiteit Twente
+**** not many linguistics courses
+**** look for profs
+*** Maastricht University
+**** no programs
+**** look for profs
+*** Delft University of Technology
+**** nothing much!
+**** look for profs
+*** Eindhoven University of Technology
+**** nothing much!
+**** look for profs
 * GERMANY 
-** Universität Hamburg
-** University of Göttingen
-** Humboldt-Universität zu Berlin
-** Universität München  -- LMU Munich
-** Freie Universität Berlin
-** Universität Freiburg
-** Technische Universität Berlin
-** University of Tübingen
-** Heidelberg University
-** Konstanz
-** Stuttgart
+** HOT
+*** Universität Hamburg
+**** https://www.uni-hamburg.de/en/campuscenter/studienangebot.html#Abschluss=opt2&Fakultaet=MIN&sort=&index
+*** University of Tübingen
+**** http://www.sfs.uni-tuebingen.de/en/ascl/courses-of-study.html
+**** http://www.sfs.uni-tuebingen.de/en/tcl/courses-of-study.html
+**** http://www.sfs.uni-tuebingen.de/en/courses-of-study/courses-of-study-at-the-sfs/international-studies-in-computational-linguistics.html
+**** http://www.sfs.uni-tuebingen.de/en/ql.html
+*** Heidelberg University
+**** http://www.uni-heidelberg.de/courses/prospective/academicprograms/computerling_ma_en.html
+**** http://www.cl.uni-heidelberg.de/
+*** Potsdam
+**** http://www.ling.uni-potsdam.de/cogsys/program.html
+**** https://www.uni-assist.de/online/uni-potsdam/?lang=en
+*** Stuttgart
+**** https://www.daad.de/deutschland/studienangebote/international-programs/en/?p=d&s=kr&id=3236
+*** Humboldt-Universität zu Berlin
+**** http://www.mind-and-brain.de/master/
+**** https://fakultaeten.hu-berlin.de/de/philfak2/lehre/master_of_arts/studienkonzept_linguistik_html
+**** https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/
+*** Universität München  -- LMU Munich
+**** http://www.uni-muenchen.de/studium/studienangebot/studiengaenge/studienfaecher/computerl_/master2/index.html
+**** http://www.uni-muenchen.de/studium/studienangebot/studiengaenge/studienfaecher/computerl_/master2/index.html
+**** http://www.uni-muenchen.de/studium/studienangebot/studiengaenge/studienfaecher/allg_indoger_sprachw/master1/index.html
+** COLD
+*** http://www.cis.uni-muenchen.de/ueber_uns/
+*** Technische Universität Berlin
+**** nope
+***  Konstanz
+**** nada
+*** Universität Freiburg
+**** nope - cold
+*** Freie Universität Berlin
+**** http://www.fu-berlin.de/en/studium/studienangebot/master/sprachen_europas/index.html
+*** Potsdam
+**** http://www.ling.uni-potsdam.de/en/
 * SWEDEN 
-** Uppsala University
-** Stockholm University
-** Kungliga Tekniska högskolan
-** Karolinska Institute
-** University of Gothenburg
-** Lund University
+** HOT
+*** Uppsala University
+**** http://www.uu.se/en/admissions/master/selma/program/?pKod=HSP2M
+*** Stockholm University
+**** http://www.ling.su.se/english/section-for-computational-linguistics
+**** http://www.ling.su.se/english/education/courses-and-programmes/second-level/master-s-programme-in-language-sciences
+*** University of Gothenburg
+**** http://utbildning.gu.se/education/courses-and-programmes/course_detail/?courseid=LT2204
+**** http://utbildning.gu.se/education/courses-and-programmes/course_detail/?courseid=LT2203
+**** http://utbildning.gu.se/education/courses-and-programmes/course_detail/?courseid=LT2113
+**** http://utbildning.gu.se/education/courses-and-programmes/program_detail/?programid=H2MLT
+**** http://utbildning.gu.se/education/courses-and-programmes/course_detail/?courseid=AF2205
+*** Lund University
+**** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-HASPV-ASPV
+**** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-LINN22
+**** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-ALSM05
+**** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-ALSM21
+**** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-LINN20
+** COLD
+*** Malmo university
+**** nada
+*** Karolinska Institute
+**** nada - this is a medical university
+*** Kungliga Tekniska högskolan
+**** nada
+*** http://www.sprak.umu.se/english/education/second-cycle--ma--studies/masters-programme-in-language-and-literature/
 * SWITZERLAND
 ** École Polytechnique Fédérale de Lausanne
 ** Eidgenössische Technische Hochschule Zürich
 ** University of Basel
 ** University of Geneva
 ** Bern
+*** http://www.philnat.unibe.ch/content/studies/study_programs/master_s_in_computer_science/index_eng.html
+*** http://www.philhist.unibe.ch/studium/studienprogramme/master_linguistik/index_ger.html
+** zurich
+*** http://www.degrees.uzh.ch/studiengang.php?CG_SAP_id=50384846&SC_SAP_id=50383586&org_SAP_id=50000007&lang=en
+*** http://www.degrees.uzh.ch/studiengang.php?CG_SAP_id=50384848&SC_SAP_id=50383586&org_SAP_id=50000007&lang=en
 * FRANCE
 ** École Normale Supérieure
+*** nada
 ** École Polytechnique
+*** rien
 ** Pierre and Marie Curie University
+*** rien
 ** Ecole ... Lyons
-* FINLAND
-** University of Helsinki
-** Aalto University
+*** rien
+** http://www.univ-paris-diderot.fr/english/sc/site.php?bc=formations&np=ficheufr&n=5&g=sm
+** http://www.lscp.net/persons/dupoux/bootphon/page_3.html
 * NORWAY
-** NTU
+** http://www.uib.no/en/studyprogramme/MAHF-DASP#presentation
+** http://www.uio.no/english/studies/programmes/inf-design-master/index.html
+** NTNU
+*** https://www.ntnu.edu/studies/mphfling
 ** Universitet i Oslo
+*** http://www.uio.no/english/studies/programmes/inf-sprok-master/index.html
+*** http://www.uio.no/english/studies/programmes/linguistics-multilingual/index.html
+** tromso
+*** https://en.uit.no/education/program?p_document_id=270448
 * US
 ** MIT
 ** Harvard
@@ -57,49 +170,48 @@
 * DENMARK
 ** Aarhus University
 ** University of Copenhagen
+*** http://cst.ku.dk/english/
 ** Technical University of Denmark
-* UK
+* UK/scotland
+** http://www.swansea.ac.uk/postgraduate/research/science/computer-science/mres-logic-and-computation/
+** http://rgcl.wlv.ac.uk/masters-and-phd-studies/
+** http://courses.wlv.ac.uk/course.asp?code=WL009P34UVD
+** The University of Edinburgh
+*** http://groups.inf.ed.ac.uk/langlunch/
+*** http://www.ed.ac.uk/studying/postgraduate/degrees?r=site/view&id=107&cw_xml=.
+*** http://www.ed.ac.uk/studying/postgraduate/degrees?r=site/view&id=290&cw_xml=.
+*** http://www.ed.ac.uk/studying/postgraduate/degrees?r=site/view&id=108&cw_xml=.
 ** University of Cambridge
+** Manchester
+*** http://www.manchester.ac.uk/study/masters/courses/list/01233/ma-linguistics/
 ** Imperial College London
 ** University College London
-** The University of Edinburgh
 ** University of Glasgow
 ** University of Oxford
 ** King’s College London
+* FINLAND
+** University of Helsinki
+*** https://www.cs.helsinki.fi/research/doremi/
+** Aalto University
+*** nope - nada
 * ITALY
 ** Università degli Studi di Bologna
+** https://segreteriaonline.unisi.it/Guide/PaginaCorso.do;jsessionid=106442D7E10A5C76BD84603ECDB5D405.jvm_unisi_esse3web02?cod_lingua=eng&corso_id=10693
+** http://international.unitn.it/mcs/lct-european-masters-program
 * SPAIN
 ** Universidad Complutense de Madrid
 ** Universidad Politécnica de Madrid
 ** University of Barcelona
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-:smi
+*** http://www.uab.cat/web/studying/official-master-s-degrees/general-information/cognitive-science-and-language-1096480962610.html?param1=1096480207446
+** http://www.upc.edu/learning/courses/masters-degrees/artificial-intelligence
+* Czech
+** http://www.mff.cuni.cz/admission/curriculum/
+* iceland
+** http://en.ru.is/scs/graduate/programmes/language-technology-msc/
+* Basquw
+** http://www.ehu.eus/en/web/hizkuntzarenazterketaprozesamendua/aurkezpena
+* http://mastermundusnlp-hlt.univ-fcomte.fr/
+* ISRAEL
+** 
+* CHINA
+* JAPAN

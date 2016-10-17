@@ -1,3 +1,7 @@
-http://linguistlist.org/teach/programs/browse-prog1.cfm
+* http://linguistlist.org/teach/programs/browse-prog1.cfm
 
-http://www.linguistlist.org/teach/programs/search-programs.cfm
+* http://www.linguistlist.org/teach/programs/search-programs.cfm
+
+* http://linguistlist.org/teach/programs/browse-prog2.cfm?CountryID=176
+* http://linguistlist.org/issues/27/27-2611.html
+* 
