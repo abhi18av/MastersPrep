@@ -65,23 +65,23 @@
 **** TODO Heidelberg University
 ***** http://www.uni-heidelberg.de/courses/prospective/academicprograms/computerling_ma_en.html
 ***** http://www.cl.uni-heidelberg.de/
-**** Stuttgart
+**** TODO Stuttgart
 ***** https://www.daad.de/deutschland/studienangebote/international-programs/en/?p=d&s=kr&id=3236
 ***** application
 ****** http://www.uni-stuttgart.de/studieren/bewerbung/online-bewerbung/index.en.html
 ****** 15 january is the deadline
+*** COLD
 **** Humboldt-Universität zu Berlin
 ***** http://www.mind-and-brain.de/master/
 ******* 1–31 May deadline for winter semesters
 ****** https://www.linguistik.hu-berlin.de/en/institut-en/professuren-en/korpuslinguistik/standardseite-en?set_language=en
 **** Universität München  -- LMU Munich
-**** 
-***** http://www.uni-muenchen.de/studium/studienangebot/studiengaenge/studienfaecher/computerl_/master2/index.html
-***** http://www.uni-muenchen.de/studium/studienangebot/studiengaenge/studienfaecher/allg_indoger_sprachw/master1/index.html
+****** http://www.uni-muenchen.de/studium/studienangebot/studiengaenge/studienfaecher/computerl_/master2/index.html
+****** http://www.uni-muenchen.de/studium/studienangebot/studiengaenge/studienfaecher/allg_indoger_sprachw/master1/index.html
 **** Potsdam
 ***** http://www.ling.uni-potsdam.de/cogsys/program.html
 ***** https://www.uni-assist.de/online/uni-potsdam/?lang=en
-*** COLD
+
 **** Universität Hamburg
 ***** https://www.uni-hamburg.de/en/campuscenter/studienangebot.html#Abschluss=opt2&Fakultaet=MIN&sort=&index
 
@@ -98,24 +98,29 @@
 ***** http://www.ling.uni-potsdam.de/en/
 ** SWEDEN 
 *** HOT
-**** Uppsala University
+**** TODO Uppsala University
 ***** http://www.uu.se/en/admissions/master/selma/program/?pKod=HSP2M
-**** Stockholm University
-***** http://www.ling.su.se/english/section-for-computational-linguistics
-***** http://www.ling.su.se/english/education/courses-and-programmes/second-level/master-s-programme-in-language-sciences
-**** University of Gothenburg
+***** 1st january 2017  - deadline
+**** TODO University of Gothenburg
 ***** http://utbildning.gu.se/education/courses-and-programmes/course_detail/?courseid=LT2204
+****** TODAY
 ***** http://utbildning.gu.se/education/courses-and-programmes/course_detail/?courseid=LT2203
-***** http://utbildning.gu.se/education/courses-and-programmes/course_detail/?courseid=LT2113
+****** date passed
 ***** http://utbildning.gu.se/education/courses-and-programmes/program_detail/?programid=H2MLT
+****** 15 jan - deadline
 ***** http://utbildning.gu.se/education/courses-and-programmes/course_detail/?courseid=AF2205
-**** Lund University
+****** 15 april
+**** TODO Lund University
 ***** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-HASPV-ASPV
 ***** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-LINN22
 ***** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-ALSM05
 ***** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-ALSM21
 ***** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-LINN20
+
 *** COLD
+**** Stockholm University
+***** http://www.ling.su.se/english/section-for-computational-linguistics
+***** http://www.ling.su.se/english/education/courses-and-programmes/second-level/master-s-programme-in-language-sciences/master-s-programme-in-language-sciences-specialisation-in-typology-and-linguistic-diversity-1.21065
 **** Malmo university
 ***** nada
 **** Karolinska Institute
@@ -127,11 +132,18 @@
 *** http://www.swansea.ac.uk/postgraduate/research/science/computer-science/mres-logic-and-computation/
 *** http://rgcl.wlv.ac.uk/masters-and-phd-studies/
 *** http://courses.wlv.ac.uk/course.asp?code=WL009P34UVD
-*** The University of Edinburgh
-**** http://groups.inf.ed.ac.uk/langlunch/
+*** TODO The University of Edinburgh
+**** AI
 **** http://www.ed.ac.uk/studying/postgraduate/degrees?r=site/view&id=107&cw_xml=.
+**** Speech and language processing
 **** http://www.ed.ac.uk/studying/postgraduate/degrees?r=site/view&id=290&cw_xml=.
+**** cognitive science
 **** http://www.ed.ac.uk/studying/postgraduate/degrees?r=site/view&id=108&cw_xml=.
+**** http://www.ed.ac.uk/ppls/psychology/prospective/postgraduate/msc/cognition-in-science-and-society
+**** http://www.ed.ac.uk/ppls/linguistics-and-english-language/prospective/postgraduate/msc/developmental-linguistics
+**** http://www.ed.ac.uk/ppls/linguistics-and-english-language/prospective/postgraduate/msc/applied-linguistics
+**** http://www.ed.ac.uk/ppls/linguistics-and-english-language/prospective/postgraduate/msc/psychology-of-language
+**** http://www.ed.ac.uk/ppls/linguistics-and-english-language/prospective/postgraduate/msc/linguistics
 *** University of Cambridge
 *** Manchester
 **** http://www.manchester.ac.uk/study/masters/courses/list/01233/ma-linguistics/
