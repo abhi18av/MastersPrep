@@ -3,43 +3,50 @@
 * FIRST
 ** NETHERLANDS 
 *** HOT
-**** TODO University of Amsterdam
+**** DONE University of Amsterdam
+CLOSED: [2016-10-18 Tue 20:08]
+***** http://gsh.uva.nl/prospective-masters-students/programmes/programmes/programmes/content-2/folder/linguistics-research/linguistics.html
+****** deadline is 1st march
 ***** https://www.illc.uva.nl/MScLogic/programme/logic-year.html
 ****** look into it! awesome!
 ****** https://www.illc.uva.nl/MScLogic/application/index.html
+****** Date exceeded!
 ****** funding - and apply for scholarship
 ****** https://www.illc.uva.nl/MScLogic/application/feesandfunding.html
-***** 
+******* http://gsh.uva.nl/prospective-masters-students/scholarships/amsterdam-excellence-scholarship/amsterdam-excellence-scholarship.html
+******* http://gsh.uva.nl/prospective-masters-students/scholarships/amsterdam-merit-scholarship/ams-scholarships-for-students-humanities.html
+******* http://www.uva.nl/en/education/master-s/scholarships--tuition/scholarships-and-loans/other-financial-aid/other-financial-aid.html
+******* https://www.studyinholland.nl/scholarships/find-a-scholarship?facet.query=modified%3A%5BNOW-7DAY%2FDAY+TO+NOW%2FDAY%2B1DAY%5D&facet.query=modified%3A%5BNOW-1MONTH%2FDAY+TO+NOW%2FDAY%2B1DAY%5D&facet.query=modified%3A%5BNOW-1YEAR%2FDAY+TO+NOW%2FDAY%2B1DAY%5D&facet.query=modified%3A%5B%2A+TO+NOW-1YEAR%2FDAY%5D&fq=audiences_label%3A%22Master%27s+degree%22&facet.field=purpose_label&facet.field=field_of_study_label&facet.field=countries_label
 ***** http://gsh.uva.nl/prospective-masters-students/programmes/content17/general-linguistics.html
 ***** http://masters.vu.nl/en/programmes/linguistics-research/index.aspx
-***** http://www.uva.nl/en/education/master-s/master-s-programmes/nav
-***** https://www.illc.uva.nl/
-****** great!
-****** https://www.illc.uva.nl/Research/Programmes/lola/
-****** 
-**** TODO University of Groningen
+**** DONE University of Groningen
+CLOSED: [2016-10-18 Tue 20:08]
 ***** http://www.rug.nl/masters/language-and-cognition-research/
+****** May 01, 2017
 ***** http://www.rug.nl/masters/language-and-communication-technologies-double-degree-programme/
 ***** http://www.rug.nl/masters/european-linguistics/?lang=en
-***** http://www.rug.nl/masters/neurolinguistics/
 ***** http://www.rug.nl/let/education/master/rema/application
 ***** register using studielink
-**** TODO Leiden University
+**** DONE Leiden University
+CLOSED: [2016-10-18 Tue 20:08]
 ***** application deadline exceeded!
 ***** http://en.mastersinleiden.nl/programmes/theoretical-and-experimental-linguistics/en/introduction
+****** 1 year
 ***** http://en.mastersinleiden.nl/programmes/linguistics-research/en/introduction
-*****  see specific programs for DEADLINES
-***** http://en.mastersinleiden.nl/programmes/translation-in-theory-and-practice-dutch-english/en/introduction
+*****  deadlines passed - for all
 ***** http://en.mastersinleiden.nl/programmes/comparative-indo-european-linguistics/en/introduction
 ***** http://en.mastersinleiden.nl/programmes/language-diversity-of-africa-asia-and-native-america/en/introduction
 ***** http://en.mastersinleiden.nl/programmes/language-and-communication/en/introduction
 ***** https://www.apply.leiden.edu/bachelor-master/Index.php
 ****** apply for excemtion of application fee
 ***** http://www.students.leiden.edu/application-admission/master/application-admission/application-deadlines.html
-**** TODO University of Utrecht
+**** DONE University of Utrecht
+CLOSED: [2016-10-18 Tue 20:14]
 ****** https://app.studielink.nl/front-office/#42
 ***** http://www.uu.nl/masters/en/linguistics
+****** deadline passed
 ***** http://www.uu.nl/masters/en/artificial-intelligence
+****** deadline passed
 ***** http://www.uu.nl/masters/en/masterprogrammas/vorm/voltijd-43/interessegebied/taalkunde-199
 ***** http://www.uu.nl/masters/en/linguistics/admission-and-application/non-eu/ndu#quicklinks
 ****** admission guidelines
@@ -60,10 +67,12 @@
 *** HOT
 **** TODO University of Tübingen
 ***** http://www.sfs.uni-tuebingen.de/en/courses-of-study/courses-of-study-at-the-sfs/international-studies-in-computational-linguistics.html
+****** can apply til l 15 jan
 ***** http://www.uni-tuebingen.de/en/study/application-and-admission/masters-degree.html
 
 **** TODO Heidelberg University
 ***** http://www.uni-heidelberg.de/courses/prospective/academicprograms/computerling_ma_en.html
+***** can apply til 15 november for summer semester
 ***** http://www.cl.uni-heidelberg.de/
 **** TODO Stuttgart
 ***** https://www.daad.de/deutschland/studienangebote/international-programs/en/?p=d&s=kr&id=3236
@@ -96,6 +105,10 @@
 ***** http://www.fu-berlin.de/en/studium/studienangebot/master/sprachen_europas/index.html
 **** Potsdam
 ***** http://www.ling.uni-potsdam.de/en/
+**** Dresden
+***** https://www.emcl-study.eu/computational_logic.html
+**** Trier
+***** https://www.uni-trier.de/index.php?id=1175&L=2
 ** SWEDEN 
 *** HOT
 **** TODO Uppsala University
@@ -103,24 +116,33 @@
 ***** 1st january 2017  - deadline
 **** TODO University of Gothenburg
 ***** http://utbildning.gu.se/education/courses-and-programmes/course_detail/?courseid=LT2204
-****** TODAY
+****** pay till 21 oct
 ***** http://utbildning.gu.se/education/courses-and-programmes/course_detail/?courseid=LT2203
-****** date passed
+****** pay till 21 oct
 ***** http://utbildning.gu.se/education/courses-and-programmes/program_detail/?programid=H2MLT
-****** 15 jan - deadline
+****** opens on 1st nov
 ***** http://utbildning.gu.se/education/courses-and-programmes/course_detail/?courseid=AF2205
-****** 15 april
+****** closed
 **** TODO Lund University
+***** will open appliaction on 18 oct
 ***** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-HASPV-ASPV
+****** till 16 january
 ***** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-LINN22
+****** not open yet
 ***** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-ALSM05
+****** not open yet
 ***** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-ALSM21
+****** not opened yet
 ***** http://www.lunduniversity.lu.se/lubas/i-uoh-lu-LINN20
-
 *** COLD
 **** Stockholm University
 ***** http://www.ling.su.se/english/section-for-computational-linguistics
-***** http://www.ling.su.se/english/education/courses-and-programmes/second-level/master-s-programme-in-language-sciences/master-s-programme-in-language-sciences-specialisation-in-typology-and-linguistic-diversity-1.21065
+***** which leads to 
+***** http://www.ling.su.se/english/education/courses-and-programmes/second-level/master-s-programme-in-language-sciences  
+****** janurary 15 deadline
+***** 
+http://www.ling.su.se/english/education/courses-and-programmes/second-level/master-s-programme-in-language-sciences/master-s-programme-in-language-sciences-specialisation-in-typology-and-linguistic-diversity-1.21065
+****** 15 january 
 **** Malmo university
 ***** nada
 **** Karolinska Institute
@@ -140,59 +162,71 @@
 **** cognitive science
 **** http://www.ed.ac.uk/studying/postgraduate/degrees?r=site/view&id=108&cw_xml=.
 **** http://www.ed.ac.uk/ppls/psychology/prospective/postgraduate/msc/cognition-in-science-and-society
+**** all of these courses start in 11 september - apply next year
 **** http://www.ed.ac.uk/ppls/linguistics-and-english-language/prospective/postgraduate/msc/developmental-linguistics
 **** http://www.ed.ac.uk/ppls/linguistics-and-english-language/prospective/postgraduate/msc/applied-linguistics
 **** http://www.ed.ac.uk/ppls/linguistics-and-english-language/prospective/postgraduate/msc/psychology-of-language
 **** http://www.ed.ac.uk/ppls/linguistics-and-english-language/prospective/postgraduate/msc/linguistics
+**** http://www.ed.ac.uk/ppls/linguistics-and-english-language/prospective/postgraduate/msc/evolution-of-language-cognition
 *** University of Cambridge
 *** Manchester
 **** http://www.manchester.ac.uk/study/masters/courses/list/01233/ma-linguistics/
 *** Imperial College London
 *** University College London
+**** http://www.ucl.ac.uk/pals/study/masters
+**** http://www.ucl.ac.uk/pals/study/masters/TMSLANSNAC01
 *** University of Glasgow
 *** University of Oxford
 *** King’s College London
 ** BELGIUM
 *** Katholieke Universiteit Leuven
+**** REDO - these are all in Dutch?
 **** http://www.arts.kuleuven.be/ling/ccl
 **** https://onderwijsaanbod.kuleuven.be/syllabi/n/F0AR3AN.htm#activetab=doelstellingen_idp1656272
 **** http://www.arts.kuleuven.be/ling/ccl/lea
 **** https://onderwijsaanbod.kuleuven.be/syllabi/e/H02B1AE.htm#activetab=doelstellingen_idp31743392
 **** http://www.arts.kuleuven.be/ling/ccl/courses/ltai
 ** SWITZERLAND
-*** COLD
-**** École Polytechnique Fédérale de Lausanne
-**** Eidgenössische Technische Hochschule Zürich
-**** University of Basel
 *** HOT
 **** University of Geneva
 ***** http://clcl.unige.ch/
 **** Bern
 ***** http://www.philnat.unibe.ch/content/studies/study_programs/master_s_in_computer_science/index_eng.html
 ***** http://www.philhist.unibe.ch/studium/studienprogramme/master_linguistik/index_ger.html
+****** 15 january
 **** zurich
 ***** http://www.degrees.uzh.ch/studiengang.php?CG_SAP_id=50384846&SC_SAP_id=50383586&org_SAP_id=50000007&lang=en
+****** 28 february
 ***** http://www.degrees.uzh.ch/studiengang.php?CG_SAP_id=50384848&SC_SAP_id=50383586&org_SAP_id=50000007&lang=en
+*** COLD
+**** École Polytechnique Fédérale de Lausanne
+**** Eidgenössische Technische Hochschule Zürich
+**** University of Basel
 ** DENMARK
 *** Aarhus University
 **** http://kandidat.au.dk/en/linguistics/
-**** http://cc.au.dk/en/about-the-school/departments/linguistics-cognitive-science-and-semiotics/
-**** http://talent.au.dk/phd/arts/programmes/language-linguistics-and-cognition/
 **** http://kandidat.au.dk/en/cognitivesemiotics/
 *** University of Copenhagen
-**** http://cst.ku.dk/english/
 **** http://studies.ku.dk/masters/it-and-cognition/
+***** will open in NOVEMBER
 *** Technical University of Denmark
+*** LEADS
+**** http://www.cbs.dk/en/research/departments-and-centres/department-of-it-management/staff/dhitm
+**** 
 ** US
 *** MIT
+**** http://linguistics.mit.edu/graduate/
 *** Harvard
 *** Stanford
 *** UC Berkeley
 *** CalTech
 ** ERASMUS
 *** https://lct-master.org/contents_2014/overview.php
-*** https://lct-master.org/contents_2014/application.php
 * SECOND
+** AUSTRIA
+*** https://linguistik.univie.ac.at/
+*** http://www.uni-salzburg.at/index.php?id=71
+*** 
 ** NORWAY
 *** http://www.uib.no/en/studyprogramme/MAHF-DASP#presentation
 *** http://www.uio.no/english/studies/programmes/inf-design-master/index.html
@@ -203,14 +237,16 @@
 **** http://www.uio.no/english/studies/programmes/linguistics-multilingual/index.html
 *** tromso
 **** https://en.uit.no/education/program?p_document_id=270448
+**** https://castl.uit.no/
 ** ITALY
 *** Università degli Studi di Bologna
 *** https://segreteriaonline.unisi.it/Guide/PaginaCorso.do;jsessionid=106442D7E10A5C76BD84603ECDB5D405.jvm_unisi_esse3web02?cod_lingua=eng&corso_id=10693
 *** http://international.unitn.it/mcs/lct-european-masters-program
 ** FRANCE
+*** http://www.linguist.univ-paris-diderot.fr/
 ***  http://mastermundusnlp-hlt.univ-fcomte.fr/
 *** École Normale Supérieure
-**** nada
+**** http://sapience.dec.ens.fr/cogmaster/www/f_01_portail.php
 *** École Polytechnique
 **** rien
 *** Pierre and Marie Curie University
@@ -235,17 +271,20 @@
 ** http://coling2016.anlp.jp/#
 ** http://aurelieherbelot.net/research/my-publications/
 ** http://www.meicogsci.eu/
-* RUSSIA :
+* RUSSIA
+** https://www.hse.ru/en/ma/tling/
 ** Moscow State University
 ** St. Petersburg University
-* Basquw
+* Basque
 ** http://www.ehu.eus/en/web/hizkuntzarenazterketaprozesamendua/aurkezpena
 * Czech
 ** http://www.mff.cuni.cz/admission/curriculum/
-* iceland
+* Iceland
 ** http://en.ru.is/scs/graduate/programmes/language-technology-msc/
 * ISRAEL
-** 
+** http://www.graduate.technion.ac.il/eng/faculties/F023.asp
 * CHINA
+** Hong Kong
+*** http://www.linguistics.hku.hk/masters-programme-ma/
 * JAPAN
 ** http://isw3.naist.jp/Contents/Research/mi-01-en.html
