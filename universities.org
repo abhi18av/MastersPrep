@@ -3,9 +3,8 @@
 * FIRST
 ** NETHERLANDS 
 *** HOT
-**** DONE University of Amsterdam
-CLOSED: [2016-10-18 Tue 20:08]
-***** http://gsh.uva.nl/prospective-masters-students/programmes/programmes/programmes/content-2/folder/linguistics-research/linguistics.html
+**** TODO University of Amsterdam
+***** TODO http://gsh.uva.nl/prospective-masters-students/programmes/programmes/programmes/content-2/folder/linguistics-research/linguistics.html
 ****** deadline is 1st march
 ***** https://www.illc.uva.nl/MScLogic/programme/logic-year.html
 ****** look into it! awesome!
@@ -27,16 +26,18 @@ CLOSED: [2016-10-18 Tue 20:08]
 ***** http://www.rug.nl/masters/european-linguistics/?lang=en
 ***** http://www.rug.nl/let/education/master/rema/application
 ***** register using studielink
-**** DONE Leiden University
-CLOSED: [2016-10-18 Tue 20:08]
+**** Leiden University
 ***** application deadline exceeded!
-***** http://en.mastersinleiden.nl/programmes/theoretical-and-experimental-linguistics/en/introduction
+***** TODO http://en.mastersinleiden.nl/programmes/theoretical-and-experimental-linguistics/en/introduction
 ****** 1 year
-***** http://en.mastersinleiden.nl/programmes/linguistics-research/en/introduction
+***** TODO http://en.mastersinleiden.nl/programmes/linguistics-research/en/introduction
 *****  deadlines passed - for all
-***** http://en.mastersinleiden.nl/programmes/comparative-indo-european-linguistics/en/introduction
-***** http://en.mastersinleiden.nl/programmes/language-diversity-of-africa-asia-and-native-america/en/introduction
-***** http://en.mastersinleiden.nl/programmes/language-and-communication/en/introduction
+***** DONE http://en.mastersinleiden.nl/programmes/comparative-indo-european-linguistics/en/introduction
+      CLOSED: [2017-01-09 Mon 18:16]
+***** DONE http://en.mastersinleiden.nl/programmes/language-diversity-of-africa-asia-and-native-america/en/introduction
+      CLOSED: [2017-01-09 Mon 18:16]
+***** DONE http://en.mastersinleiden.nl/programmes/language-and-communication/en/introduction
+      CLOSED: [2017-01-09 Mon 18:16]
 ***** https://www.apply.leiden.edu/bachelor-master/Index.php
 ****** apply for excemtion of application fee
 ***** http://www.students.leiden.edu/application-admission/master/application-admission/application-deadlines.html
