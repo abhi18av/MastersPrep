@@ -17,7 +17,13 @@ I do not complain about this, in fact I'm happy that I've experience the wonderf
 
 To me that has been about languages, or more accurately what they do and can still reveal about our essence. After all, we don't have the biggest paws or the strongest jaws nor do we have any extraordinary physical trait that distinguishes us from the billions of other species, we have shared our home with. Still, beyond the superficial "differences" we are all quite the same. Then what is it that separates us, that made us - us?
 
-It's our minds, not only the physical aspect of our intellect but our imagination, the part that could only be expressed using 
+It's our minds, not only the physical aspect of our intellect but our imagination, our creativity, the part that could be expressed using so many means but most clearly and widely expressed as languages. The sheer variety of them! We might not be the greatest of species, but we are great learners. Languages have been time capsules in form of traditions, stories etc helping to keep us together and build upon the work done by our ancestors. Still, it gives us the tools to innovate at our whim. It's not the languages that make us - us, but what do they represent, they are the hint to a deeper truth about our nature, our essence.
+
+
+
+
+
+
 
 I let myself get distracted in the startUp frenzy...but this strange yearning..of being able to think and to seek for something profound... My mind is hungry and it'd be bad conscience on my part to overlook this "seeker" part of my identity...
 
