@@ -5,26 +5,29 @@
 *** HOT
 **** TODO University of Amsterdam
 ***** TODO http://gsh.uva.nl/prospective-masters-students/programmes/programmes/programmes/content-2/folder/linguistics-research/linguistics.html
+***** requires an application fees
 ****** deadline is 1st march
-***** https://www.illc.uva.nl/MScLogic/programme/logic-year.html
+***** DONE https://www.illc.uva.nl/MScLogic/programme/logic-year.html
+      CLOSED: [2017-01-14 Sat 20:37]
 ****** look into it! awesome!
 ****** https://www.illc.uva.nl/MScLogic/application/index.html
-****** Date exceeded!
 ****** funding - and apply for scholarship
 ****** https://www.illc.uva.nl/MScLogic/application/feesandfunding.html
 ******* http://gsh.uva.nl/prospective-masters-students/scholarships/amsterdam-excellence-scholarship/amsterdam-excellence-scholarship.html
 ******* http://gsh.uva.nl/prospective-masters-students/scholarships/amsterdam-merit-scholarship/ams-scholarships-for-students-humanities.html
 ******* http://www.uva.nl/en/education/master-s/scholarships--tuition/scholarships-and-loans/other-financial-aid/other-financial-aid.html
 ******* https://www.studyinholland.nl/scholarships/find-a-scholarship?facet.query=modified%3A%5BNOW-7DAY%2FDAY+TO+NOW%2FDAY%2B1DAY%5D&facet.query=modified%3A%5BNOW-1MONTH%2FDAY+TO+NOW%2FDAY%2B1DAY%5D&facet.query=modified%3A%5BNOW-1YEAR%2FDAY+TO+NOW%2FDAY%2B1DAY%5D&facet.query=modified%3A%5B%2A+TO+NOW-1YEAR%2FDAY%5D&fq=audiences_label%3A%22Master%27s+degree%22&facet.field=purpose_label&facet.field=field_of_study_label&facet.field=countries_label
-***** http://gsh.uva.nl/prospective-masters-students/programmes/content17/general-linguistics.html
-***** http://masters.vu.nl/en/programmes/linguistics-research/index.aspx
+***** DONE http://gsh.uva.nl/prospective-masters-students/programmes/content17/general-linguistics.html
+      CLOSED: [2017-01-14 Sat 20:40]
+***** TODO http://masters.vu.nl/en/programmes/linguistics-research/index.aspx
+****** Human technoloy reserach - 1 st april deadline
 **** DONE University of Groningen
 CLOSED: [2016-10-18 Tue 20:08]
 ***** http://www.rug.nl/masters/language-and-cognition-research/
 ****** May 01, 2017
-***** http://www.rug.nl/masters/language-and-communication-technologies-double-degree-programme/
-***** http://www.rug.nl/masters/european-linguistics/?lang=en
-***** http://www.rug.nl/let/education/master/rema/application
+***** TODO http://www.rug.nl/masters/language-and-communication-technologies-double-degree-programme/
+***** TODO http://www.rug.nl/masters/european-linguistics/?lang=en
+***** TODO http://www.rug.nl/let/education/master/rema/application
 ***** register using studielink
 **** Leiden University
 ***** application deadline exceeded!
@@ -32,6 +35,7 @@ CLOSED: [2016-10-18 Tue 20:08]
 ****** 1 year
 ***** TODO http://en.mastersinleiden.nl/programmes/linguistics-research/en/introduction
 *****  deadlines passed - for all
+****** 100 euro
 ***** DONE http://en.mastersinleiden.nl/programmes/comparative-indo-european-linguistics/en/introduction
       CLOSED: [2017-01-09 Mon 18:16]
 ***** DONE http://en.mastersinleiden.nl/programmes/language-diversity-of-africa-asia-and-native-america/en/introduction
@@ -44,9 +48,11 @@ CLOSED: [2016-10-18 Tue 20:08]
 **** DONE University of Utrecht
 CLOSED: [2016-10-18 Tue 20:14]
 ****** https://app.studielink.nl/front-office/#42
-***** http://www.uu.nl/masters/en/linguistics
+***** DONE http://www.uu.nl/masters/en/linguistics
+      CLOSED: [2017-01-14 Sat 20:56]
 ****** deadline passed
-***** http://www.uu.nl/masters/en/artificial-intelligence
+***** DONE http://www.uu.nl/masters/en/artificial-intelligence
+      CLOSED: [2017-01-14 Sat 20:56]
 ****** deadline passed
 ***** http://www.uu.nl/masters/en/masterprogrammas/vorm/voltijd-43/interessegebied/taalkunde-199
 ***** http://www.uu.nl/masters/en/linguistics/admission-and-application/non-eu/ndu#quicklinks
@@ -67,7 +73,7 @@ CLOSED: [2016-10-18 Tue 20:14]
 ** GERMANY 
 *** HOT
 **** TODO University of Tübingen
-***** http://www.sfs.uni-tuebingen.de/en/courses-of-study/courses-of-study-at-the-sfs/international-studies-in-computational-linguistics.html
+***** TODO http://www.sfs.uni-tuebingen.de/en/courses-of-study/courses-of-study-at-the-sfs/international-studies-in-computational-linguistics.html
 ****** can apply til l 15 jan
 ***** http://www.uni-tuebingen.de/en/study/application-and-admission/masters-degree.html
 
