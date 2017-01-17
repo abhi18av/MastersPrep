@@ -1,0 +1,12 @@
+Bachelor_Degree_back.jpg filter=lfs diff=lfs merge=lfs -text
+Bachelor_Degree_front.jpg filter=lfs diff=lfs merge=lfs -text
+Marksheet_Bachelor_University_back.jpg filter=lfs diff=lfs merge=lfs -text
+Marksheet_Bachelor_University_front.jpg filter=lfs diff=lfs merge=lfs -text
+Marksheet_Secondary_School_back.jpg filter=lfs diff=lfs merge=lfs -text
+Marksheet_Secondary_School_front.jpg filter=lfs diff=lfs merge=lfs -text
+Marksheet_Senior_Secondary_School_back.jpg filter=lfs diff=lfs merge=lfs -text
+Marksheet_Senior_Secondary_School_front.jpg filter=lfs diff=lfs merge=lfs -text
+Secondary_School_back.jpg filter=lfs diff=lfs merge=lfs -text
+Secondary_School_front.jpg filter=lfs diff=lfs merge=lfs -text
+Senior_Secondary_School_back.jpg filter=lfs diff=lfs merge=lfs -text
+Senior_Secondary_School_front.jpg filter=lfs diff=lfs merge=lfs -text
