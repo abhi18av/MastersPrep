@@ -1,0 +1,3 @@
+
+(function(){'use strict';inproces.service('ipDialog',function(ipTemplate,ngDialog,$q,$http){return function(params,options){var d=$q.defer();var showDialog=function(content,options){var defaults={plain:true,className:'ip-modal',showClose:false,closeByEscape:true,template:content};options=angular.extend(defaults,options);ngDialog.open(options).closePromise.then(function(result){d.resolve(result.value);});};if(params.html){showDialog(params.html,options);}else if(params.url){$http.get(params.url).then(function(response){showDialog(response.data,options);});}else{ipTemplate(params).then(function(content){showDialog(content,options);}.bind(this));}
+return d.promise;};});})();

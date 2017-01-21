@@ -1,0 +1,5 @@
+
+(function(){'use strict';inproces.directive('ipText',['$sce',function($sce){function parseHtml(html){html=html.replace(/&nbsp;/g,' ');html=html.replace(/<br(\s*)\/*>/ig,'\r\n');html=html.replace(/<[div>]+>/ig,'\r\n');html=html.replace(/<\/[div>]+>/gm,'');html=html.replace(/\r\n$/,'');html=html.replace(/<\S[^><]*>/g,'');return html;}
+function link(scope,element,attrs,ngModel){if(!ngModel)return;element.addClass('ip-text');element.attr('contenteditable','');element.attr('ng-bind-html',attrs.ngModel);element.attr('data-md-tooltip','"Dit is de helptext"')
+ngModel.$render=function(){element.html($sce.getTrustedHtml(ngModel.$viewValue||''));};element.on('blur keyup change',function(){scope.$evalAsync(read);});read();function read(){var html=element.html();ngModel.$setViewValue(parseHtml(html));}}
+return{require:'ngModel',restrict:'A',link:link};}]);})();

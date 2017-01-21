@@ -1,0 +1,2 @@
+
+(function(){'use strict';inproces.directive('ipAnimate',function ipAnimate($animate){return{restrict:'A',link:function(scope,element,attributes){$animate.enabled(!attributes.ipAnimate==='false',element);}};});})();

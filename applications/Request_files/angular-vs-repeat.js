@@ -1,0 +1,79 @@
+
+(function(window,angular){'use strict';var dde=document.documentElement,matchingFunction=dde.matches?'matches':dde.matchesSelector?'matchesSelector':dde.webkitMatches?'webkitMatches':dde.webkitMatchesSelector?'webkitMatchesSelector':dde.msMatches?'msMatches':dde.msMatchesSelector?'msMatchesSelector':dde.mozMatches?'mozMatches':dde.mozMatchesSelector?'mozMatchesSelector':null;var closestElement=angular.element.prototype.closest||function(selector){var el=this[0].parentNode;while(el!==document.documentElement&&el!=null&&!el[matchingFunction](selector)){el=el.parentNode;}
+if(el&&el[matchingFunction](selector)){return angular.element(el);}
+else{return angular.element();}};function getWindowScroll(){if('pageYOffset'in window){return{scrollTop:pageYOffset,scrollLeft:pageXOffset};}
+else{var sx,sy,d=document,r=d.documentElement,b=d.body;sx=r.scrollLeft||b.scrollLeft||0;sy=r.scrollTop||b.scrollTop||0;return{scrollTop:sy,scrollLeft:sx};}}
+function getClientSize(element,sizeProp){if(element===window){return sizeProp==='clientWidth'?window.innerWidth:window.innerHeight;}
+else{return element[sizeProp];}}
+function getScrollPos(element,scrollProp){return element===window?getWindowScroll()[scrollProp]:element[scrollProp];}
+function getScrollOffset(vsElement,scrollElement,isHorizontal){var vsPos=vsElement.getBoundingClientRect()[isHorizontal?'left':'top'];var scrollPos=scrollElement===window?0:scrollElement.getBoundingClientRect()[isHorizontal?'left':'top'];var correction=vsPos-scrollPos+
+(scrollElement===window?getWindowScroll():scrollElement)[isHorizontal?'scrollLeft':'scrollTop'];return correction;}
+var vsRepeatModule=angular.module('vs-repeat',[]).directive('vsRepeat',['$compile','$parse',function($compile,$parse){return{restrict:'A',scope:true,compile:function($element){var ngRepeatChild=$element.children().eq(0),ngRepeatExpression,childCloneHtml=ngRepeatChild[0].outerHTML,expressionMatches,lhs,rhs,rhsSuffix,originalNgRepeatAttr,collectionName='$vs_collection',isNgRepeatStart=false,attributesDictionary={'vsRepeat':'elementSize','vsOffsetBefore':'offsetBefore','vsOffsetAfter':'offsetAfter','vsExcess':'excess'};if(ngRepeatChild.attr('ng-repeat')){originalNgRepeatAttr='ng-repeat';ngRepeatExpression=ngRepeatChild.attr('ng-repeat');}
+else if(ngRepeatChild.attr('data-ng-repeat')){originalNgRepeatAttr='data-ng-repeat';ngRepeatExpression=ngRepeatChild.attr('data-ng-repeat');}
+else if(ngRepeatChild.attr('ng-repeat-start')){isNgRepeatStart=true;originalNgRepeatAttr='ng-repeat-start';ngRepeatExpression=ngRepeatChild.attr('ng-repeat-start');}
+else if(ngRepeatChild.attr('data-ng-repeat-start')){isNgRepeatStart=true;originalNgRepeatAttr='data-ng-repeat-start';ngRepeatExpression=ngRepeatChild.attr('data-ng-repeat-start');}
+else{throw new Error('angular-vs-repeat: no ng-repeat directive on a child element');}
+expressionMatches=/^\s*(\S+)\s+in\s+([\S\s]+?)(track\s+by\s+\S+)?$/.exec(ngRepeatExpression);lhs=expressionMatches[1];rhs=expressionMatches[2];rhsSuffix=expressionMatches[3];if(isNgRepeatStart){var index=0;var repeaterElement=$element.children().eq(0);while(repeaterElement.attr('ng-repeat-end')==null&&repeaterElement.attr('data-ng-repeat-end')==null){index++;repeaterElement=$element.children().eq(index);childCloneHtml+=repeaterElement[0].outerHTML;}}
+$element.empty();return{pre:function($scope,$element,$attrs){var childClone=angular.element(childCloneHtml),childTagName=childClone[0].tagName.toLowerCase(),originalCollection=[],originalLength,$$horizontal=typeof $attrs.vsHorizontal!=='undefined',$beforeContent=angular.element('<'+childTagName+' class="vs-repeat-before-content"></'+childTagName+'>'),$afterContent=angular.element('<'+childTagName+' class="vs-repeat-after-content"></'+childTagName+'>'),autoSize=!$attrs.vsRepeat,sizesPropertyExists=!!$attrs.vsSize||!!$attrs.vsSizeProperty,$scrollParent=$attrs.vsScrollParent?$attrs.vsScrollParent==='window'?angular.element(window):closestElement.call($element,$attrs.vsScrollParent):$element,positioningProperty=$$horizontal?'left':'top',localScrollTrigger=false,$$options='vsOptions'in $attrs?$scope.$eval($attrs.vsOptions):{},clientSize=$$horizontal?'clientWidth':'clientHeight',offsetSize=$$horizontal?'offsetWidth':'offsetHeight',scrollPos=$$horizontal?'scrollLeft':'scrollTop';$scope.totalSize=0;if(!('vsSize'in $attrs)&&'vsSizeProperty'in $attrs){console.warn('vs-size-property attribute is deprecated. Please use vs-size attribute which also accepts angular expressions.');}
+if($scrollParent.length===0){throw'Specified scroll parent selector did not match any element';}
+$scope.$scrollParent=$scrollParent;if(sizesPropertyExists){$scope.sizesCumulative=[];}
+$scope.elementSize=(+$attrs.vsRepeat)||getClientSize($scrollParent[0],clientSize)||50;$scope.offsetBefore=0;$scope.offsetAfter=0;$scope.excess=2;$scope.scrollSettings={scrollIndex:0,scrollIndexPosition:'top'};if($$horizontal){$beforeContent.css('height','100%');$afterContent.css('height','100%');}
+else{$beforeContent.css('width','100%');$afterContent.css('width','100%');}
+$scope.$watch($attrs.vsScrollSettings,function(newValue){if(typeof newValue==='undefined'){return;}
+$scope.scrollSettings=newValue;reinitialize($scope.scrollSettings);},true);Object.keys(attributesDictionary).forEach(function(key){if($attrs[key]){$attrs.$observe(key,function(value){$scope[attributesDictionary[key]]=+value;reinitialize();});}});$scope.$watchCollection(rhs,function(coll){originalCollection=coll||[];refresh();});function refresh(event,data){if(!originalCollection||originalCollection.length<1){$scope[collectionName]=[];originalLength=0;updateTotalSize(0);$scope.sizesCumulative=[0];return;}
+else{originalLength=originalCollection.length;if(sizesPropertyExists){$scope.sizes=originalCollection.map(function(item){var s=$scope.$new(false);angular.extend(s,item);s[lhs]=item;var size=($attrs.vsSize||$attrs.vsSizeProperty)?s.$eval($attrs.vsSize||$attrs.vsSizeProperty):$scope.elementSize;s.$destroy();return size;});var sum=0;$scope.sizesCumulative=$scope.sizes.map(function(size){var res=sum;sum+=size;return res;});$scope.sizesCumulative.push(sum);}
+else{setAutoSize();}}
+reinitialize(data);}
+function setAutoSize(){if(autoSize){$scope.$$postDigest(function(){if($element[0].offsetHeight||$element[0].offsetWidth){var children=$element.children(),i=0,gotSomething=false,insideStartEndSequence=false;while(i<children.length){if(children[i].attributes[originalNgRepeatAttr]!=null||insideStartEndSequence){if(!gotSomething){$scope.elementSize=0;}
+gotSomething=true;if(children[i][offsetSize]){$scope.elementSize+=children[i][offsetSize];}
+if(isNgRepeatStart){if(children[i].attributes['ng-repeat-end']!=null||children[i].attributes['data-ng-repeat-end']!=null){break;}
+else{insideStartEndSequence=true;}}
+else{break;}}
+i++;}
+if(gotSomething){reinitialize();autoSize=false;if($scope.$root&&!$scope.$root.$$phase){$scope.$apply();}}}
+else{var dereg=$scope.$watch(function(){if($element[0].offsetHeight||$element[0].offsetWidth){dereg();setAutoSize();}});}});}}
+childClone.eq(0).attr(originalNgRepeatAttr,lhs+' in '+collectionName+(rhsSuffix?' '+rhsSuffix:''));childClone.addClass('vs-repeat-repeated-element');$element.append($beforeContent);$element.append(childClone);$compile(childClone)($scope);$element.append($afterContent);$scope.startIndex=0;$scope.endIndex=0;$scrollParent.on('scroll',function scrollHandler(){if(localScrollTrigger){localScrollTrigger=false;}
+else{if(updateInnerCollection()){$scope.$apply();}}});function onWindowResize(){if(typeof $attrs.vsAutoresize!=='undefined'){autoSize=true;setAutoSize();if($scope.$root&&!$scope.$root.$$phase){$scope.$apply();}}
+if(updateInnerCollection()){$scope.$apply();}}
+angular.element(window).on('resize',onWindowResize);$scope.$on('$destroy',function(){angular.element(window).off('resize',onWindowResize);});$scope.$on('vsRepeatTrigger',refresh);$scope.$on('vsRepeatResize',function(){autoSize=true;setAutoSize();});var _prevStartIndex,_prevEndIndex,_minStartIndex,_maxEndIndex;$scope.$on('vsRenderAll',function(){if($$options.latch){setTimeout(function(){var __endIndex=originalLength;_maxEndIndex=Math.max(__endIndex,_maxEndIndex);$scope.endIndex=$$options.latch?_maxEndIndex:__endIndex;$scope[collectionName]=originalCollection.slice($scope.startIndex,$scope.endIndex);_prevEndIndex=$scope.endIndex;$scope.$$postDigest(function(){var layoutProp=$$horizontal?'width':'height';$beforeContent.css(layoutProp,0);$afterContent.css(layoutProp,0);});$scope.$apply(function(){$scope.$emit('vsRenderAllDone');});});}});function reinitialize(data){_prevStartIndex=void 0;_prevEndIndex=void 0;_minStartIndex=originalLength;_maxEndIndex=0;updateInnerCollection(data);updateTotalSize(sizesPropertyExists?$scope.sizesCumulative[originalLength]:$scope.elementSize*originalLength);$scope.$emit('vsRepeatReinitialized',$scope.startIndex,$scope.endIndex);}
+function updateTotalSize(size){$scope.totalSize=$scope.offsetBefore+size+$scope.offsetAfter;}
+var _prevClientSize;function reinitOnClientHeightChange(){var ch=getClientSize($scrollParent[0],clientSize);if(ch!==_prevClientSize){reinitialize();if($scope.$root&&!$scope.$root.$$phase){$scope.$apply();}}
+_prevClientSize=ch;}
+$scope.$watch(function(){if(typeof window.requestAnimationFrame==='function'){window.requestAnimationFrame(reinitOnClientHeightChange);}
+else{reinitOnClientHeightChange();}});function scrollToPosition(scrollTo){var scrolled=false;if(scrollTo!==undefined&&(typeof scrollTo)==='number'){scrolled=Math.max(scrollTo,0);if($scrollParent[0][scrollPos]!==scrolled){$scrollParent[0][scrollPos]=scrolled;localScrollTrigger=true;}
+else{scrolled=false;}
+$scope.$emit('vsRepeatScrolled',scrolled);}
+return scrolled;}
+function updateInnerCollection(data){var $scrollPosition=getScrollPos($scrollParent[0],scrollPos);var $clientSize=getClientSize($scrollParent[0],clientSize);var scrollOffset=$element[0]===$scrollParent[0]?0:getScrollOffset($element[0],$scrollParent[0],$$horizontal);var scrollChange=true,position,visibleStartIndex,scrollIndexCumulativeSize,scrollIndexSize;var __startIndex=$scope.startIndex;var __endIndex=$scope.endIndex;if(data&&data.elementSize!==undefined){$scope.elementSize=data.elementSize;}
+if(data&&data.scrollIndex!==undefined){if(typeof $scope.scrollSettings!=='undefined'){$scope.scrollSettings.scrollIndex=data.scrollIndex;}
+if(sizesPropertyExists){scrollIndexSize=$scope.sizes[data.scrollIndex];scrollIndexCumulativeSize=$scope.sizesCumulative[data.scrollIndex];}
+else{scrollIndexSize=$scope.elementSize;scrollIndexCumulativeSize=data.scrollIndex*$scope.elementSize;}
+if(data.scrollIndexPosition!==undefined){if(typeof $scope.scrollSettings!=='undefined'){$scope.scrollSettings.scrollIndexPosition=data.scrollIndexPosition;}
+position=0;switch(typeof data.scrollIndexPosition){case'number':position=data.scrollIndexPosition+$scope.offsetBefore;break;case'string':switch(data.scrollIndexPosition){case'top':position=$scope.offsetBefore;break;case'middle':position=($clientSize-scrollIndexSize)/2;break;case'bottom':position=$clientSize-scrollIndexSize-$scope.offsetAfter;break;case'inview':case'inview#top':case'inview#middle':case'inview#bottom':case'inview#auto':if(($scrollParent[0][scrollPos]<=(scrollIndexCumulativeSize))&&($scrollParent[0][scrollPos]+$clientSize-scrollIndexSize>=scrollIndexCumulativeSize)){scrollChange=false;position=scrollIndexCumulativeSize-$scrollParent[0][scrollPos];}
+else{if(data.scrollIndexPosition==='inview#top'||data.scrollIndexPosition==='inview'){position=$scope.offsetBefore;}
+if(data.scrollIndexPosition==='inview#bottom'){position=$clientSize-scrollIndexSize+$scope.offsetAfter;}
+if(data.scrollIndexPosition==='inview#middle'){position=($clientSize-scrollIndexSize)/2;}
+if(data.scrollIndexPosition==='inview#auto'){if($scrollParent[0][scrollPos]<=scrollIndexCumulativeSize){position=$clientSize-scrollIndexSize+$scope.offsetAfter;}
+else{position=$scope.offsetBefore;}}}
+break;default:console.warn('Incorrect scrollIndexPosition string value');break;}
+break;default:console.warn('Incorrect scrollIndexPosition type');break;}}
+else{scrollChange=false;if(sizesPropertyExists){position=$scope.sizesCumulative[data.scrollIndex]-$scrollParent[0][scrollPos];}
+else{position=(data.scrollIndex*$scope.elementSize)-$scrollParent[0][scrollPos];}}
+__startIndex=data.scrollIndex;if(sizesPropertyExists){while($scope.sizesCumulative[__startIndex]>$scope.sizesCumulative[data.scrollIndex]-position){__startIndex--;}
+visibleStartIndex=Math.max(__startIndex,0);__startIndex=Math.max(Math.floor(__startIndex-($scope.excess/2)),0);__endIndex=__startIndex;while($scope.sizesCumulative[__endIndex]<$scope.sizesCumulative[visibleStartIndex]-$scope.offsetBefore+$clientSize){__endIndex++;}
+__endIndex=Math.min(Math.ceil(__endIndex+($scope.excess/2)),originalLength);}
+else{while((__startIndex*$scope.elementSize)>(data.scrollIndex*$scope.elementSize)-position){__startIndex--;}
+visibleStartIndex=Math.max(__startIndex,0);__startIndex=Math.max(Math.floor(__startIndex-($scope.excess/2)),0);__endIndex=Math.min(__startIndex+Math.ceil($clientSize/$scope.elementSize)+$scope.excess/2,originalLength);}}
+else{if(sizesPropertyExists){__startIndex=0;while($scope.sizesCumulative[__startIndex]<$scrollPosition-$scope.offsetBefore-scrollOffset){__startIndex++;}
+if(__startIndex>0){__startIndex--;}
+__startIndex=Math.max(Math.floor(__startIndex-$scope.excess/2),0);__endIndex=__startIndex;while($scope.sizesCumulative[__endIndex]<$scrollPosition-$scope.offsetBefore-scrollOffset+$clientSize){__endIndex++;}
+__endIndex=Math.min(Math.ceil(__endIndex+$scope.excess/2),originalLength);}
+else{__startIndex=Math.max(Math.floor(($scrollPosition-$scope.offsetBefore-scrollOffset)/$scope.elementSize)-$scope.excess/2,0);__endIndex=Math.min(__startIndex+Math.ceil($clientSize/$scope.elementSize)+$scope.excess,originalLength);}}
+_minStartIndex=Math.min(__startIndex,_minStartIndex);_maxEndIndex=Math.max(__endIndex,_maxEndIndex);$scope.startIndex=$$options.latch?_minStartIndex:__startIndex;$scope.endIndex=$$options.latch?_maxEndIndex:__endIndex;if(data!==undefined&&data.scrollIndex!==undefined&&position!==undefined&&scrollChange){scrollToPosition(scrollIndexCumulativeSize-position);}
+var digestRequired=false;if(_prevStartIndex==null){digestRequired=true;}
+else if(_prevEndIndex==null){digestRequired=true;}
+if(!digestRequired){if($$options.hunked){if(Math.abs($scope.startIndex-_prevStartIndex)>=$scope.excess/2||($scope.startIndex===0&&_prevStartIndex!==0)){digestRequired=true;}
+else if(Math.abs($scope.endIndex-_prevEndIndex)>=$scope.excess/2||($scope.endIndex===originalLength&&_prevEndIndex!==originalLength)){digestRequired=true;}}
+else{digestRequired=$scope.startIndex!==_prevStartIndex||$scope.endIndex!==_prevEndIndex;}}
+if(digestRequired){$scope[collectionName]=originalCollection.slice($scope.startIndex,$scope.endIndex);$scope.$emit('vsRepeatInnerCollectionUpdated',$scope.startIndex,$scope.endIndex,_prevStartIndex,_prevEndIndex);_prevStartIndex=$scope.startIndex;_prevEndIndex=$scope.endIndex;$scope.$$postDigest(function(){var offsetCalculationString=sizesPropertyExists?'(sizesCumulative[$index + startIndex] + offsetBefore)':'(($index + startIndex) * elementSize + offsetBefore)';var parsed=$parse(offsetCalculationString);var o1=parsed($scope,{$index:0});var o2=parsed($scope,{$index:$scope[collectionName].length});var total=$scope.totalSize;var layoutProp=$$horizontal?'width':'height';$beforeContent.css(layoutProp,o1+'px');$afterContent.css(layoutProp,(total-o2)+'px');});}
+return digestRequired;}}};}};}]);if(typeof module!=='undefined'&&module.exports){module.exports=vsRepeatModule.name;}})(window,window.angular);

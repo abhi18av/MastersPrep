@@ -1,0 +1,3 @@
+
+(function(){'use strict';inproces.directive('ipDate',['$parse',function($parse){function link(scope,element,attrs){element.addClass('ip-date');var epoch=$parse(attrs.ngModel)(scope.$parent);if(epoch){scope.date=new Date(epoch);}else{scope.date=new Date();};scope.change=function(){if(angular.isDate(scope.date)){$parse(attrs.ngModel).assign(scope.$parent,scope.date.getTime());}};}
+return{require:'ngModel',restrict:'A',template:'<md-datepicker ng-change="change()" md-open-on-focus ng-model="date"></md-datepicker>',link:link,scope:{}};}]);})();

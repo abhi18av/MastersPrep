@@ -1,0 +1,2 @@
+'use strict';(function(){inproces.provider('$exceptionHandler',{$get:function(ipErrorLogService){return ipErrorLogService;}}).factory('ipErrorLogService',function($log,$window,ipStacktraceService){function log(exception,cause){$log.error.apply($log,arguments);try{var errorMessage=exception.toString();var stackTrace=ipStacktraceService.print({e:exception});}catch(loggingError){$log.warn('Error logging failed');$log.log(loggingError);}}
+return(log);}).factory('ipStacktraceService',function(){return({print:printStackTrace});});})();

@@ -1,0 +1,2 @@
+
+(function(){'use strict';inproces.factory('ipEvaluate',function($http,$q){return function(params){var request={method:'get',url:'/entiteitproxy?action=evaluate',params:params};var d=$q.defer();$http(request).then(function(response){d.resolve(response);},function(response){});return d.promise;};});})();

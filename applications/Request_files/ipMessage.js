@@ -1,0 +1,2 @@
+'use strict';inproces.factory('ipMessage',function($faye,$mdToast){var messageClient=$faye('/cometd',function(client){var extension={incoming:function(message,callback){if(message.error){var errorParts=message.error.split(':');$mdToast.show({position:'bottom right',template:'<md-toast class="md-toast error"><span class="fa fa-exclamation-triangle"></span>'+errorParts[2]+'</md-toast>',hideDelay:6000,locals:message});}
+callback(message);},outgoing:function(message,callback){callback(message);}};client.addExtension(extension);});return messageClient;});

@@ -1,0 +1,563 @@
+@font-face {
+    font-family:'MetaWeb';
+    src:url(//static.uva.nl/css/fontface/meta-book/MetaWeb-Book.eot?);
+    src:local('?'),url(//static.uva.nl/css/fontface/meta-book/MetaWeb-Book.eot?) format('eot'),url(//static.uva.nl/css/fontface/meta-book/MetaWeb-Book.woff) format('woff');
+}
+@font-face {
+    font-family:'MetaWeb';
+    src:local('?'),url(//static.uva.nl/css/fontface/meta-book-ita/MetaWeb-BookIta.eot?) format('eot'),url(//static.uva.nl/css/fontface/meta-book-ita/MetaWeb-BookIta.woff) format('woff');
+    font-weight:normal;
+    font-style:italic;
+}
+@font-face {
+    font-family:'MetaWeb';
+    src:url(//static.uva.nl/css/fontface/meta-bold/MetaWeb-Bold.eot);
+    src:local('?'),url(//static.uva.nl/css/fontface/meta-bold/MetaWeb-Bold.eot?) format('eot'),url(//static.uva.nl/css/fontface/meta-bold/MetaWeb-Bold.woff) format('woff');
+    font-weight:bold;
+    font-style:normal;
+}
+@font-face {
+    font-family:'MetaSerifWeb';
+    src:url(//static.uva.nl/css/fontface/meta-serif-bold/MetaSerifWeb-Bold.eot);
+    src:local('?'),url(//static.uva.nl/css/fontface/meta-serif-bold/MetaSerifWeb-Bold.eot?) format('eot'),url(//static.uva.nl/css/fontface/meta-serif-bold/MetaSerifWeb-Bold.woff) format('woff');
+    font-weight:bold;
+    font-style:normal;
+}
+@font-face {
+    font-family:'MyriadWebProRegular';
+    src:url(//static.uva.nl/css/fontface/myriad-web-pro/myriad-web-pro-webfont.eot?);
+    src:local('?'),url(//static.uva.nl/css/fontface/myriad-web-pro/myriad-web-pro-webfont.eot?#iefix) format('eot'),url(//static.uva.nl/css/fontface/myriad-web-pro/myriad-web-pro-webfont.woff) format('woff');
+}
+
+
+body {
+    color: #231f20;
+    font-family: MetaWeb,Arial,sans-serif;
+    font-size: 150%;
+}
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
+    font-family: MetaWeb,Arial,sans-serif;
+}
+
+.modal-body a,
+.ip-table table tbody a,
+a {
+   color: #231f20;
+}
+
+a:hover, 
+a:focus {
+    color: #bc0031;
+    text-decoration: none;
+}
+
+table {    
+    border-style: none;
+}
+
+main .layout .container {
+    padding: 0;
+}
+
+.layout-links {
+    margin-top: 1em;
+}
+
+@media screen and (min-width: 768px) {    
+    .layout-links,
+    .layout-midden,
+    .layout-rechts {
+        margin-top: 35px;
+    }
+}
+
+/* --- popover --- */
+.popover {
+    background-color: #ffffff !important;
+    color: #231f20;
+}
+.popover.right .arrow:after {
+    border-right-color: #ffffff;
+}
+.popover.top .arrow:after { 
+    border-top-color: #ffffff; 
+}
+.popover.left .arrow:after { 
+    border-left-color: #ffffff; 
+}
+
+.popover.top {
+    margin-top: 20px;
+}
+
+
+/* --- ip-panel --- */
+.ip-panel {
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.ip-panel .ip-widget-header {
+    align-items: center;
+    color: #231f20;
+    display: flex;
+    flex-direction: row; 
+    font-size: 26px;
+    letter-spacing: 0.005em;
+    margin: 0;
+    min-height: 50px;   
+    padding: 0 26px;
+    position: relative;
+    
+}
+
+.ip-panel:not(.startpagina) .ip-widget-header {
+    background-color: #fff;
+    color: #231f20;
+    font-family: MetaSerifWeb;
+}
+
+
+.ip-panel .ip-widget-header h1 {
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: normal;
+    margin: inherit;
+    text-transform: none;
+}
+
+.ip-panel .ip-widget-header h1 small {
+    color: inherit;
+    display: block;
+    font-size: small;
+    opacity: .8;
+}
+
+
+.ip-panel .ip-widget-header .btn-fab {
+    background-color: #257835;
+    bottom: -26px;
+    box-shadow: none;
+    position: absolute;
+    right: 26px;
+    z-index: 1;
+}
+
+.ip-panel .ip-widget-header .btn-fab span {
+    color: #fff;
+    display: block;
+    float: none;
+    font-size: .85em;
+    line-height: 1.3;
+}
+
+.ip-panel .ip-widget-header .btn-fab:hover {
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.18);
+}
+
+.ip-panel .ip-widget-header .btn-fab:hover span {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.ip-panel > .content {
+    padding: 10px 26px;
+}
+ 
+.ip-panel.ingediende-aanvragen  > .ip-widget-header {
+   background-color: #257835;
+    color: white;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .ip-panel {
+        margin-bottom: 2em;
+       
+    }
+    .ip-panel .ip-widget-header {
+        min-height: 60px;   
+    }
+}
+
+
+@media print {
+    .ip-panel .ip-widget-header {
+        min-height: 0;
+        padding: 0;
+    }
+    
+    .ip-panel .ip-widget-header h1 {
+        font-size: 2em;
+        margin-bottom: .2em;
+        margin-top: .5em;
+        color: white;
+    }
+
+    .ip-panel > .content {
+        padding: 0;
+    }
+}
+/* --- startpagina --- */
+
+.ip-panel.startpagina > header {
+    background-color: #257835;
+    padding: 0 26px;
+    color: white;
+}
+
+.startpagina h1 {
+    color: inherit;
+    font-size: 16px;
+    font-weight: normal;
+    margin: inherit;
+    text-transform: none
+    
+}
+
+.startpagina h2 {
+    color: inherit;
+    font-family: MetaSerifWeb, Arial;
+    font-size: 18px;
+}
+
+.startpagina h3 {
+    color: inherit;
+    font-family: MetaWeb, Arial;
+    font-size: 15px;
+}
+
+.startpagina a {
+    color: #000569;
+    text-decoration: underline;
+}
+
+.startpagina a:hover {
+    text-decoration: none;
+}
+
+
+.startpagina .btn {
+    border-radius: 0;
+}
+
+
+/* --- modal --- */
+.modal-title {
+    font-family: MetaSerifWeb, Arial,sans-serif;
+}
+
+.modal-body .btn {
+    background-color: #bc0031 !important;
+    color: #fff !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* --- table --- */
+.ip-table table thead tr {
+    background-color: #bc0031;
+}
+.ip-table table tbody a {
+    text-decoration: none;
+}
+
+.ip-table table tbody a:hover,
+.ip-table table tbody a:focus {
+    color: #bc0031;
+}    
+
+/* --- aanvraagknoppen --- */
+.aanvraagknoppen {
+    float: right;
+    margin-left: 10px;
+}
+
+.aanvraagknoppen .knop .btn {   
+    background-color: #FA1C36 !important ;
+}
+.aanvraag-bevestiging .b-brief-container {
+    background: none;
+}
+
+
+
+/* --- formulier --- */
+
+.ip-form .form-group label,
+.ip-fieldset .form-group > .ip-fieldset legend,
+.ip-form .form-group div.fieldlabel {
+    background-color: #fff !important;
+    color: #231f20 !important;
+}
+
+.ip-fieldset legend,
+.ip-fieldset .form-group > .ip-fieldset legend,
+.ip-form .form-group label,
+.ip-form .form-group div.fieldlabel,
+.ip-form .form-control,
+.ip-form .form-control-wrapper,
+.ip-form .extratekst {
+    text-align: left;
+}
+
+.ip-form .form-control {
+     color: #231f20 !important;
+}
+
+.ip-form .form-control {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.ip-form.counting legend span.counter {
+    text-align: center;
+}
+
+.ip-form .form-group > .ip-fieldset label,
+.ip-form .form-control-wrapper {
+    background-color: #dbdbdb !important;
+    color: #231f20 !important;
+}
+
+.ip-fieldset legend {
+    background-color: #257835;
+    color: #fff;
+}
+
+.ip-form .form-control-wrapper,
+.ip-form .form-group label,
+.ip-form .form-group div.fieldlabel,
+.ip-fieldset .form-group > .ip-fieldset legend {
+    margin-bottom: 0;
+}
+
+
+.ip-form .form-group > label {
+    width: auto;
+}
+
+.ip-form-error {
+    background-color: #ff0000;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: .5em;
+    min-height: 50px;
+    padding: .5em .5em .5em 4em;
+    position: relative;
+}
+
+.ip-form-error:before {
+    color: inherit;
+    content: "\f071";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 2.5em;
+    line-height: normal;
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    width: auto;
+}
+
+.ip-form .verplicht .fa {
+    color: #bc0031;
+    display: inline-block;
+    font-size: 1.3em;
+    line-height: normal;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    width: auto;
+}
+
+.ip-form .fout .fa {
+    position: absolute;
+    right: 5px;
+    top: 4px;
+}
+
+
+.ip-form .fout .validatie-tekst {
+    padding: 4px 5px 0;
+}
+.ip-form .ip-label {
+    line-height: 1.3;
+}
+
+.ip-form .checkbox label, 
+.ip-form .radio label {
+    line-height: normal;
+    min-height: 28px;
+    padding-top: 7px;
+}
+
+.ip-form .checkbox.horizontal label, 
+.ip-form .radio.horizontal label {
+    margin-right: 0;
+}
+
+.ip-form .checkbox input[type=checkbox]:checked ~ .check, 
+.ip-form .radio input[type=radio]:checked ~ .circle {
+    border-color: #257835;
+}
+.ip-form.counting legend span.counter,
+.ip-form .checkbox input[type=checkbox]:checked ~ .check, 
+.ip-form .checkbox input[type=checkbox]:checked ~ .check:before {
+    color: #257835;
+}
+
+.ip-form .radio input[type=radio]:checked ~ .check, 
+.ip-form .radio input[type=radio]:checked ~ .check:before {
+    background-color: #257835;
+}
+
+.ip-request-breadcrumbs div {
+    margin-bottom: 15px;
+}
+
+.ip-request-breadcrumbs h2 {
+    background-color: transparent;
+    color: #231f20;
+    font-family: MetaSerifWeb;
+    font-size: 26px;
+    padding: 0;
+}
+
+.ip-form .ip-bijlage, 
+.ip-form .ui-select-toggle {
+    background-color: #dbdbdb !important;
+}
+
+.ip-request-navigation .nav > li.active,
+.ip-form .actionbar .btn {
+    background-color: #bc0031 !important;
+}
+
+.ip-request-navigation .nav > li.activescroll {
+    border-color: #bc0031;
+}
+.ip-form .ui-select-bootstrap .ui-select-choices-row.active > a {
+    background-color: #999;
+}
+
+.ip-request-navigation {
+    margin-top: 1em;
+}
+
+.ip-request-navigation .nav > li {
+    background-color: #ededed !important;
+}
+
+.ip-request-navigation .nav > li:not(.active) > a {
+    color: #231f20;
+}
+
+.ip-request-navigation .nav > li:hover .counter,
+.ip-request-navigation .nav > li:not(.active) > a:hover,
+.ip-request-navigation .nav > li:not(.active) > a:focus,
+.ip-request-navigation.counting li span.counter {
+    color: #bc0031;
+}
+
+.ip-form .form-group label,
+.ip-fieldset .form-group > .ip-fieldset legend {
+    font-weight: normal;
+}
+
+.ip-form .form-group .radio label,
+.ip-form .form-group .checkbox label,
+.ip-form .ip-bijlage, 
+.ip-form .ui-select-toggle {
+    font-weight: 300;
+}
+
+.ip-request-breadcrumbs header,
+.ip-request-breadcrumbs ol {
+    display: none;
+}
+
+.ip-form .ip-bijlage:before {
+    color: rgba(0,0,0,.6) !important;
+    content: "\f0c6";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    position: absolute;
+    right: .5em;
+    top: 0;
+}
+
+.ip-form .ip-bijlage  {
+    color: #231f20 !important;
+    min-height: 28px;
+    padding: 5px 0 0 0;
+}
+
+.ip-form .ip-bijlage-remove {
+    min-height: 28px;
+    background-color: transparent !important;
+    color: rgba(0,0,0,.6) !important;
+    margin: 0;
+    right: 35px;
+}
+
+.ip-form .ip-bijlage,
+.ip-form .ui-select-match-text {
+    text-transform: none;
+}
+
+.ip-form .ui-select-container {
+    padding: 0 !important;
+}
+
+.ip-form .ui-select-toggle .btn-link {
+    top: 5px;
+}
+
+.ip-form .ui-select-match-text {
+    padding-top: 5px;
+}
+
+.ip-form .form-group div.fieldlabel {
+    line-height: 1.2;
+    min-height: 0;
+}
+
+.ip-form .actionbar {
+    background-color: #fff;
+    box-shadow: 0 -5px 15px -5px rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.ip-form .actionbar .btn.pull-left {
+    float: none !important;
+    margin-right: 2em;
+}
+
+.ip-form .extratekst {
+    background-color: transparent;
+    color: #666;
+    margin-top: 0;
+    padding: 0;
+}
+
+/* 2016-002346 */
+.plupload.html5 {
+    top: 0 !important;
+}
