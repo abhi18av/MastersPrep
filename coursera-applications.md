@@ -18,3 +18,10 @@ Through this course I wish to liberate the need for an office and instead to be 
 At the moment, I'm in desperate need of means to make a decent living so that I may pursue my dreams and education. 
 
 I need this course on Storytelling to become better as a Creative person, which I've found to be vital part of learning.
+
+## reasons
+As I've explained above, being unemployed and from a family of modest means, essentially makes courses a luxury for me. It's through Coursera that I'm designing my own education with the goal to learn as much as I can.
+
+Unfortunately, I'm not able to pay for this specialization as of now. But, I do wish to give back in terms of translations and community partnership.
+
+I sincerely wish that Coursera team and the University authorities would consider me worthy of this course.
