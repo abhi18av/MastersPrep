@@ -1,0 +1,20 @@
+## Why you need?
+
+I am a University graduate with a Bachelor's in Computer Science. I couldn't secure a job during the college placements because of low grades but that's not to say that I don't like to learn. In fact, I'm absolutely in love with learning and I value my education a lot. 
+
+I wish to pursue my masters in Amsterdam, in Language and Logic stream. Languages have always been a great passion of mine but being from an Indian middle class income group the fees for the course weighs heavy on my family.  
+
+Apart from languages, if there's anything I love and can absolutely do for a living are games which are a wonderful combination of Imagination, Art and Storytelling. If I am to pursue my masters and create a meaningful and independent career I need to hone my artistic side and to work hard on my skills. 
+
+I wish to be able to support myself and my education without being a burden for my family.
+
+
+## how this course?
+
+I don't wish to be yet another lousy IT professional from India but I wish to be able to use computers and the digital world as an expression of my thought and perspective. I'd like to develop games for making a living, which involve a huge element of Art, Design and Storytelling. 
+
+Through this course I wish to liberate the need for an office and instead to be able to work in a Location-Independent manner. In today's fast paced world, only digital art and technological know-how offers me that freedom. I sincerely believe that, this course will give me the confidence to trust the artist within me. 
+
+At the moment, I'm in desperate need of means to make a decent living so that I may pursue my dreams and education. 
+
+I need this course on Storytelling to become better as a Creative person, which I've found to be vital part of learning.
