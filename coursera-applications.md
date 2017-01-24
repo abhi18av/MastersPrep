@@ -26,7 +26,9 @@ Unfortunately, I'm not able to pay for this specialization as of now. But, I do 
 
 I sincerely wish that Coursera team and the University authorities would consider me worthy of this course.
 
-
+## todo
+sbl/scvim
+add to vim for supercollider
 
 ## TODO
 
