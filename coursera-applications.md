@@ -33,4 +33,8 @@ I sincerely wish that Coursera team and the University authorities would conside
 https://www.coursera.org/specializations/project-management
 https://www.coursera.org/specializations/strategic-management
 https://www.coursera.org/specializations/mba
+https://www.coursera.org/specializations/career-success
+https://www.coursera.org/specializations/virtual-teacher
+https://www.coursera.org/specializations/shangwu-yingyu
+
 
