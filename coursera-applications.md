@@ -36,6 +36,7 @@ https://www.coursera.org/specializations/mba
 https://www.coursera.org/specializations/career-success
 https://www.coursera.org/specializations/virtual-teacher
 https://www.coursera.org/specializations/shangwu-yingyu
+https://www.coursera.org/specializations/hsk-learn-chinese
 
 
 
