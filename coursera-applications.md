@@ -38,3 +38,17 @@ https://www.coursera.org/specializations/virtual-teacher
 https://www.coursera.org/specializations/shangwu-yingyu
 
 
+
+
+## Applications
+
+- S Ruby on Rails
+- S Fundamentals of Graphic Design
+- S Creative Writing
+- S Introduction to Game Development
+- Online Games: Literature, New Media, and Narrative
+- Julia Scientific Programming
+- Miracles of Human Language: An Introduction to Linguistics
+- S Functional Programming Principles in Scala
+- S Introduction to Genomic Technologies
+- S Introduction to Game Design
