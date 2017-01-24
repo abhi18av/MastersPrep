@@ -25,3 +25,12 @@ As I've explained above, being unemployed and from a family of modest means, ess
 Unfortunately, I'm not able to pay for this specialization as of now. But, I do wish to give back in terms of translations and community partnership.
 
 I sincerely wish that Coursera team and the University authorities would consider me worthy of this course.
+
+
+
+## TODO
+
+https://www.coursera.org/specializations/project-management
+https://www.coursera.org/specializations/strategic-management
+https://www.coursera.org/specializations/mba
+
