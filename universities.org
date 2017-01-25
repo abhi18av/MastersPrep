@@ -82,6 +82,7 @@ CLOSED: [2016-10-18 Tue 20:14]
 ***** can apply til 15 november for summer semester
 ***** http://www.cl.uni-heidelberg.de/
 **** TODO Stuttgart
+***** application starts in MAY
 ***** https://www.daad.de/deutschland/studienangebote/international-programs/en/?p=d&s=kr&id=3236
 ***** application
 ****** http://www.uni-stuttgart.de/studieren/bewerbung/online-bewerbung/index.en.html
