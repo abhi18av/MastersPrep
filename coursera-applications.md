@@ -41,10 +41,11 @@ https://www.coursera.org/specializations/shangwu-yingyu
 https://www.coursera.org/specializations/hsk-learn-chinese
 https://www.coursera.org/specializations/musicianship-specialization
 
+https://www.coursera.org/specializations/game-designhttps://www.coursera.org/specializations/product-management
 
-
-
-## Applications
+https://www.coursera.org/specializations/agile-development
+ 
+ ## Applications
 
 - S Ruby on Rails
 - S Fundamentals of Graphic Design
