@@ -50,7 +50,6 @@ https://www.coursera.org/specializations/agile-development
 - S Ruby on Rails
 - S Fundamentals of Graphic Design
 - S Creative Writing
-- S Introduction to Game Development
 - Online Games: Literature, New Media, and Narrative
 - Julia Scientific Programming
 - Miracles of Human Language: An Introduction to Linguistics
