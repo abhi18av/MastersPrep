@@ -56,3 +56,11 @@ https://www.coursera.org/specializations/agile-development
 - S Functional Programming Principles in Scala
 - S Introduction to Genomic Technologies
 - S Introduction to Game Design
+
+
+## Approved
+
+ - Introduction to Game Development 
+ - Ruby on Rails: An Introduction
+ - Learning How to Learn: Powerful mental tools to help you master tough subjects
+ - 
