@@ -60,9 +60,8 @@ https://www.coursera.org/learn/natural-language-processing
 
 ## Approved
 
--  Fundamentals of Graphic Design
--  Creative Writing
- - Introduction to Game Development 
- - Ruby on Rails: An Introduction
- - Learning How to Learn: Powerful mental tools to help you master tough subjects
- - 
+- Fundamentals of Graphic Design
+- Creative Writing
+- Introduction to Game Development 
+- Ruby on Rails: An Introduction
+- Learning How to Learn: Powerful mental tools to help you master tough subjects 
