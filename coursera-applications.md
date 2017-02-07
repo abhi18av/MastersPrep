@@ -50,9 +50,6 @@ https://www.coursera.org/learn/natural-language-processing
 
  ## Applications
 
-- S Ruby on Rails
-- S Fundamentals of Graphic Design
-- S Creative Writing
 - Online Games: Literature, New Media, and Narrative
 - Julia Scientific Programming
 - Miracles of Human Language: An Introduction to Linguistics
@@ -63,6 +60,8 @@ https://www.coursera.org/learn/natural-language-processing
 
 ## Approved
 
+-  Fundamentals of Graphic Design
+-  Creative Writing
  - Introduction to Game Development 
  - Ruby on Rails: An Introduction
  - Learning How to Learn: Powerful mental tools to help you master tough subjects
