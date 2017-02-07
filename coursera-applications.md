@@ -50,9 +50,6 @@ https://www.coursera.org/learn/natural-language-processing
 
  ## Applications
 
-- Online Games: Literature, New Media, and Narrative
-- Julia Scientific Programming
-- Miracles of Human Language: An Introduction to Linguistics
 - S Functional Programming Principles in Scala
 - S Introduction to Genomic Technologies
 - S Introduction to Game Design
@@ -60,6 +57,9 @@ https://www.coursera.org/learn/natural-language-processing
 
 ## Approved
 
+- Online Games: Literature, New Media, and Narrative
+- Julia Scientific Programming
+- Miracles of Human Language: An Introduction to Linguistics
 - Fundamentals of Graphic Design
 - Creative Writing
 - Introduction to Game Development 
