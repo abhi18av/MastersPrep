@@ -32,21 +32,23 @@ add to vim for supercollider
 
 ## TODO
 
-https://www.coursera.org/specializations/project-management
-https://www.coursera.org/specializations/strategic-management
-https://www.coursera.org/specializations/mba
-https://www.coursera.org/specializations/career-success
-https://www.coursera.org/specializations/virtual-teacher
-https://www.coursera.org/specializations/shangwu-yingyu
-https://www.coursera.org/specializations/hsk-learn-chinese
-https://www.coursera.org/specializations/musicianship-specialization
-https://www.coursera.org/specializations/python
-https://www.coursera.org/specializations/computer-fundamentals
-https://www.coursera.org/specializations/game-designhttps://www.coursera.org/specializations/product-management
-https://www.coursera.org/specializations/genomic-data-science
-https://www.coursera.org/specializations/agile-development
-https://www.coursera.org/specializations/python
-https://www.coursera.org/learn/natural-language-processing
+
+- https://www.coursera.org/specializations/product-management
+- https://www.coursera.org/specializations/project-management
+- https://www.coursera.org/specializations/strategic-management
+- https://www.coursera.org/specializations/mba
+- https://www.coursera.org/specializations/career-success
+- https://www.coursera.org/specializations/virtual-teacher
+- https://www.coursera.org/specializations/shangwu-yingyu
+- https://www.coursera.org/specializations/hsk-learn-chinese
+- https://www.coursera.org/specializations/musicianship-specialization
+- https://www.coursera.org/specializations/python
+- https://www.coursera.org/specializations/computer-fundamentals
+- https://www.coursera.org/specializations/game-design
+- https://www.coursera.org/specializations/genomic-data-science
+- https://www.coursera.org/specializations/agile-development
+- https://www.coursera.org/specializations/python
+- https://www.coursera.org/learn/natural-language-processing
 
  ## Applications
 
