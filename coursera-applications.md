@@ -54,7 +54,7 @@ https://www.coursera.org/learn/natural-language-processing
 
 ## Approved
 
-- S Introduction to Game Design
+- S Introduction to Game Design : Art and Concepts
 - S Functional Programming Principles in Scala
 - S Introduction to Genomic Technologies
 - Online Games: Literature, New Media, and Narrative
