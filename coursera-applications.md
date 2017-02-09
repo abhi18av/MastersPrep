@@ -42,15 +42,14 @@ add to vim for supercollider
 - https://www.coursera.org/specializations/shangwu-yingyu
 - https://www.coursera.org/specializations/hsk-learn-chinese
 - https://www.coursera.org/specializations/musicianship-specialization
-- https://www.coursera.org/specializations/python
-- https://www.coursera.org/specializations/computer-fundamentals
-- https://www.coursera.org/specializations/agile-development
-- https://www.coursera.org/specializations/python
 - https://www.coursera.org/learn/natural-language-processing
 
 
  ## Applications
 
+- https://www.coursera.org/specializations/python
+- https://www.coursera.org/specializations/computer-fundamentals
+- https://www.coursera.org/specializations/agile-development
 
 
 ## Approved
