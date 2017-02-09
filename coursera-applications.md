@@ -43,6 +43,7 @@ add to vim for supercollider
 - https://www.coursera.org/specializations/hsk-learn-chinese
 - https://www.coursera.org/specializations/musicianship-specialization
 - https://www.coursera.org/learn/natural-language-processing
+- https://www.coursera.org/specializations/wangluo-youxi-sheji-kaifa
 
 
  ## Applications
