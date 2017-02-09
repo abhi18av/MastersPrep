@@ -44,11 +44,10 @@ add to vim for supercollider
 - https://www.coursera.org/specializations/musicianship-specialization
 - https://www.coursera.org/specializations/python
 - https://www.coursera.org/specializations/computer-fundamentals
-- https://www.coursera.org/specializations/game-design
-- https://www.coursera.org/specializations/genomic-data-science
 - https://www.coursera.org/specializations/agile-development
 - https://www.coursera.org/specializations/python
 - https://www.coursera.org/learn/natural-language-processing
+
 
  ## Applications
 
