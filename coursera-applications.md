@@ -35,9 +35,10 @@ At the moment, I'm in desperate need of means to make a decent living so that I 
 I need this course on Storytelling to become better as a Creative person, which I've found to be vital part of learning.
 
 ----------------------
+
 I don't wish to be yet another lousy IT professional from India but I wish to be able to use computers and the digital world as an expression of my thought, perspective and to understand this world better. My masters is not related to this field but in order to support myself I'd like to offer my services to the research labs and make my little contribution towards a cure.
 
-At the moment, I'm in desperate need of means to make a decent living so that I may pursue my dreams and education but instead of pursuing the typical web design etc career I'd like to make it meaningful to me.
+At the moment, I'm in desperate need of means to make a decent living so that I may pursue my dreams and education but instead of pursuing the typical web design etc career -  I'd like to make it meaningful to me.
 
 Through this course I wish to liberate the need for an office and instead to be able to work in a Location-Independent manner. In today's fast paced world, only technological know-how offers me that freedom. I sincerely believe that, this course will give me the confidence to channel the passionate problem solver within me.
 
