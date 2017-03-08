@@ -70,39 +70,3 @@ I sincerely wish that Coursera team and the University authorities would conside
 sbl/scvim
 add to vim for supercollider
 
-## TODO
-
-
-- https://www.coursera.org/specializations/product-management
-- https://www.coursera.org/specializations/project-management
-- https://www.coursera.org/specializations/strategic-management
-- https://www.coursera.org/specializations/mba
-- https://www.coursera.org/specializations/career-success
-- https://www.coursera.org/specializations/virtual-teacher
-- https://www.coursera.org/specializations/shangwu-yingyu
-- https://www.coursera.org/specializations/hsk-learn-chinese
-- https://www.coursera.org/specializations/musicianship-specialization
-- https://www.coursera.org/learn/natural-language-processing
-- https://www.coursera.org/specializations/wangluo-youxi-sheji-kaifa
-
-
- ## Applications
-
-- https://www.coursera.org/specializations/python
-- https://www.coursera.org/specializations/computer-fundamentals
-- https://www.coursera.org/specializations/agile-development
-
-
-## Approved
-
-- S Introduction to Game Design : Art and Concepts
-- S Functional Programming Principles in Scala
-- S Introduction to Genomic Technologies
-- Online Games: Literature, New Media, and Narrative
-- Julia Scientific Programming
-- Miracles of Human Language: An Introduction to Linguistics
-- Fundamentals of Graphic Design
-- Creative Writing
-- Introduction to Game Development 
-- Ruby on Rails: An Introduction
-- Learning How to Learn: Powerful mental tools to help you master tough subjects 
